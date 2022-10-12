@@ -1,0 +1,109 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 650,
+    "data": {
+        "url": "https://raw.githubusercontent.com/chloechee1130/FIT3179_A2/main/data/WH_2019_2020.csv"
+    },
+    "config": {
+        "font": "Helvetica Neue, Arial",
+        "axis": {
+            "labelFont": "Helvetica Neue, Arial",
+            "titleFont": "Helvetica Neue, Arial",
+            "labelColor": "black",
+            "titleColor": "black",
+            "gridColor": "lighter",
+            "labelFontSize":12,
+            "labelLimit":500,
+            "titleFontSize": 14
+        },
+        "lineBreak": "linebreak",
+        "title":{
+            "fontSize":20,
+            "font": "Helvetica Neue, Arial"
+        },
+        "style": {
+            "guide-title": {
+                "font": "Helvetica Neue, Arial",
+                "fontSize":14
+            },
+            "text": {
+                "font": "Helvetica Neue, Arial",
+                "fontSize": 15,
+                "fontStyle": "Italic"
+            },
+            "legend":{
+                "labelFont": "Helvetica Neue, Arial",
+                "labelFontSize": 12,
+                "titleFontSize": 14
+            }
+        }
+    },
+    "params": [
+        {
+          "name": "Continent_selection", 
+          "value": "Asia", 
+          "bind": {
+            "input": "select",
+            "options": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Australia"
+            ],
+            "labels": ["North America"],
+            "name": "Continent Selection: "
+          }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "Continent_selection == null || datum.continent == Continent_selection"
+        }
+    ],
+    "encoding": {
+        "x": {
+            "field": "rank",
+            "type": "quantitative",
+            "title": "Happiness Rank"
+        },
+        "y":{
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+        }
+    },
+    "layer": [
+        {
+            "mark": "line",
+            "encoding": {
+                "detail": {
+                    "field": "country",
+                    "type": "nominal"
+                },
+                "color": {"value": "#db646f"}
+            }
+        },
+        {
+            "mark": {
+                "type": "point",
+                "filled": true
+            },
+            "encoding": {
+                "color": {
+                    "field": "year",
+                    "type": "ordinal",
+                    "scale":{
+                        "domain": [2019, 2020],
+                        "range": ["#e6959c", "#911a24"]
+                    },
+                    "title": "Year"
+                },
+                "size": {"value": 100},
+                "opacity": {"value": 1}
+            }
+        }
+    ]
+  }

@@ -112,9 +112,16 @@
                 ]
             }
         },
-        {
-            "mark": {"type": "text", "radius": 190},
-            "encoding": {"text": {"field": "field", "type": "nominal"}}
+        {   
+            "transform": [
+                { "calculate": "format(datum.field_value/datum.happiness_score*100, ',.1f')", "as": "percentage"},
+                {
+                    "calculate": "datum.field + 'linebreak' + datum.percentage + ' %'",
+                    "as": "text_annotation"
+                }
+            ],
+            "mark": {"type": "text", "radius": 195},
+            "encoding": {"text": {"field": "text_annotation", "type": "nominal"}}
         },
         {
             
@@ -134,6 +141,6 @@
                 "text": {"field": "text_annotation"},
                 "color": {"value": "#000000"}
             }
-        }          
+        }       
     ]
 }

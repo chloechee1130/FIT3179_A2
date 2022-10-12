@@ -1,0 +1,71 @@
+﻿country,happiness_score,continent,year,rank,field,field_value,field_rank
+Norway,7.498,Europe,2019,4,Economy,1.57744,1
+Switzerland,7.509,Europe,2019,2,Economy,1.52733,2
+Netherlands,7.339,Europe,2019,7,Economy,1.46468,3
+Sweden,7.291,Europe,2019,10,Economy,1.45181,4
+Australia,7.313,Australia,2019,9,Economy,1.44443,5
+Denmark,7.526,Europe,2019,1,Economy,1.44178,6
+Canada,7.404,North America,2019,6,Economy,1.44015,7
+Iceland,7.501,Europe,2019,3,Economy,1.42666,8
+Finland,7.413,Europe,2019,5,Economy,1.40598,9
+New Zealand,7.334,Australia,2019,8,Economy,1.36066,10
+Iceland,7.501,Europe,2019,3,Family,1.18326,1
+New Zealand,7.334,Australia,2019,8,Family,1.17278,2
+Denmark,7.526,Europe,2019,1,Family,1.16374,3
+Switzerland,7.509,Europe,2019,2,Family,1.14524,4
+Finland,7.413,Europe,2019,5,Family,1.13464,5
+Norway,7.498,Europe,2019,4,Family,1.1269,6
+Australia,7.313,Australia,2019,9,Family,1.10476,7
+Canada,7.404,North America,2019,6,Family,1.0961,8
+Sweden,7.291,Europe,2019,10,Family,1.08764,9
+Netherlands,7.339,Europe,2019,7,Family,1.02912,10
+Iceland,7.501,Europe,2019,3,Health,0.86733,1
+Switzerland,7.509,Europe,2019,2,Health,0.86303,2
+Australia,7.313,Australia,2019,9,Health,0.8512,3
+Sweden,7.291,Europe,2019,10,Health,0.83121,4
+New Zealand,7.334,Australia,2019,8,Health,0.83096,5
+Canada,7.404,North America,2019,6,Health,0.8276,6
+Netherlands,7.339,Europe,2019,7,Health,0.81231,7
+Finland,7.413,Europe,2019,5,Health,0.81091,8
+Norway,7.498,Europe,2019,4,Health,0.79579,9
+Denmark,7.526,Europe,2019,1,Health,0.79504,10
+Norway,7.498,Europe,2019,4,Freedom,0.59609,1
+Switzerland,7.509,Europe,2019,2,Freedom,0.58557,2
+Sweden,7.291,Europe,2019,10,Freedom,0.58218,3
+New Zealand,7.334,Australia,2019,8,Freedom,0.58147,4
+Denmark,7.526,Europe,2019,1,Freedom,0.57941,5
+Canada,7.404,North America,2019,6,Freedom,0.5737,6
+Finland,7.413,Europe,2019,5,Freedom,0.57104,7
+Australia,7.313,Australia,2019,9,Freedom,0.56837,8
+Iceland,7.501,Europe,2019,3,Freedom,0.56624,9
+Netherlands,7.339,Europe,2019,7,Freedom,0.55211,10
+Denmark,7.526,Europe,2019,1,Trust,0.44453,1
+New Zealand,7.334,Australia,2019,8,Trust,0.41904,2
+Switzerland,7.509,Europe,2019,2,Trust,0.41203,3
+Finland,7.413,Europe,2019,5,Trust,0.41004,4
+Sweden,7.291,Europe,2019,10,Trust,0.40867,5
+Norway,7.498,Europe,2019,4,Trust,0.35776,6
+Australia,7.313,Australia,2019,9,Trust,0.32331,7
+Canada,7.404,North America,2019,6,Trust,0.31329,8
+Netherlands,7.339,Europe,2019,7,Trust,0.29927,9
+Iceland,7.501,Europe,2019,3,Trust,0.14975,10
+New Zealand,7.334,Australia,2019,8,Generosity,0.49401,1
+Iceland,7.501,Europe,2019,3,Generosity,0.47678,2
+Netherlands,7.339,Europe,2019,7,Generosity,0.47416,3
+Australia,7.313,Australia,2019,9,Generosity,0.47407,4
+Canada,7.404,North America,2019,6,Generosity,0.44834,5
+Sweden,7.291,Europe,2019,10,Generosity,0.38254,6
+Norway,7.498,Europe,2019,4,Generosity,0.37895,7
+Denmark,7.526,Europe,2019,1,Generosity,0.36171,8
+Switzerland,7.509,Europe,2019,2,Generosity,0.28083,9
+Finland,7.413,Europe,2019,5,Generosity,0.25492,10
+Iceland,7.501,Europe,2019,3,Residual,2.83137,1
+Finland,7.413,Europe,2019,5,Residual,2.82596,2
+Denmark,7.526,Europe,2019,1,Residual,2.73939,3
+Netherlands,7.339,Europe,2019,7,Residual,2.70749,4
+Canada,7.404,North America,2019,6,Residual,2.70485,5
+Switzerland,7.509,Europe,2019,2,Residual,2.69463,6
+Norway,7.498,Europe,2019,4,Residual,2.66465,7
+Sweden,7.291,Europe,2019,10,Residual,2.54734,8
+Australia,7.313,Australia,2019,9,Residual,2.5465,9
+New Zealand,7.334,Australia,2019,8,Residual,2.47553,10

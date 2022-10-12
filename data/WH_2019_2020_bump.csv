@@ -1,0 +1,967 @@
+﻿country,happiness_score,continent,year,rank,field,field_value,field_rank
+Luxembourg,6.871,Europe,2019,19,gdp_per_capita,1.69752,1
+Singapore,6.739,Asia,2019,21,gdp_per_capita,1.64555,2
+Kuwait,6.239,Asia,2019,37,gdp_per_capita,1.61714,3
+Norway,7.498,Europe,2019,4,gdp_per_capita,1.57744,4
+United Arab Emirates,6.573,Asia,2019,27,gdp_per_capita,1.57352,5
+Switzerland,7.509,Europe,2019,2,gdp_per_capita,1.52733,6
+United States of America,7.104,North America,2019,13,gdp_per_capita,1.50796,7
+Saudi Arabia,6.379,Asia,2019,33,gdp_per_capita,1.48953,8
+Ireland,6.907,Europe,2019,18,gdp_per_capita,1.48341,9
+Netherlands,7.339,Europe,2019,7,gdp_per_capita,1.46468,10
+Sweden,7.291,Europe,2019,10,gdp_per_capita,1.45181,11
+Austria,7.119,Europe,2019,12,gdp_per_capita,1.45038,12
+Germany,6.994,Europe,2019,15,gdp_per_capita,1.44787,13
+Australia,7.313,Australia,2019,9,gdp_per_capita,1.44443,14
+Denmark,7.526,Europe,2019,1,gdp_per_capita,1.44178,15
+Bahrain,6.218,Asia,2019,38,gdp_per_capita,1.44024,16
+Canada,7.404,North America,2019,6,gdp_per_capita,1.44015,17
+Iceland,7.501,Europe,2019,3,gdp_per_capita,1.42666,18
+Belgium,6.929,Europe,2019,17,gdp_per_capita,1.42539,19
+Finland,7.413,Europe,2019,5,gdp_per_capita,1.40598,20
+United Kingdom,6.725,Europe,2019,22,gdp_per_capita,1.40283,21
+France,6.478,Europe,2019,31,gdp_per_capita,1.39488,22
+Japan,5.921,Asia,2019,47,gdp_per_capita,1.38007,23
+New Zealand,7.334,Australia,2019,8,gdp_per_capita,1.36066,24
+South Korea,5.835,Asia,2019,51,gdp_per_capita,1.35948,25
+Italy,5.977,Europe,2019,45,gdp_per_capita,1.35495,26
+Spain,6.361,Europe,2019,34,gdp_per_capita,1.34253,27
+Israel,7.267,Asia,2019,11,gdp_per_capita,1.33766,28
+Cyprus,5.546,Asia,2019,62,gdp_per_capita,1.31857,29
+Czech Republic,6.596,Europe,2019,26,gdp_per_capita,1.30915,30
+Malta,6.488,Europe,2019,29,gdp_per_capita,1.30782,31
+Slovenia,5.768,Europe,2019,56,gdp_per_capita,1.29947,32
+Slovakia,6.078,Europe,2019,40,gdp_per_capita,1.27973,33
+Estonia,5.517,Europe,2019,65,gdp_per_capita,1.27964,34
+Portugal,5.123,Europe,2019,84,gdp_per_capita,1.27607,35
+Lithuania,5.813,Europe,2019,54,gdp_per_capita,1.2692,36
+Malaysia,6.005,Asia,2019,42,gdp_per_capita,1.25142,37
+Greece,5.033,Europe,2019,87,gdp_per_capita,1.24886,38
+Poland,5.835,Europe,2019,52,gdp_per_capita,1.24585,39
+Hungary,5.145,Europe,2019,81,gdp_per_capita,1.24142,40
+Russia,5.856,Europe,2019,50,gdp_per_capita,1.23228,41
+Kazakhstan,5.919,Asia,2019,48,gdp_per_capita,1.22943,42
+Latvia,5.56,Europe,2019,61,gdp_per_capita,1.21788,43
+Chile,6.705,South America,2019,23,gdp_per_capita,1.2167,44
+Croatia,5.488,Europe,2019,67,gdp_per_capita,1.18649,45
+Panama,6.701,South America,2019,24,gdp_per_capita,1.18306,46
+Uruguay,6.545,South America,2019,28,gdp_per_capita,1.18157,47
+Romania,5.528,Europe,2019,64,gdp_per_capita,1.1697,48
+Turkey,5.389,Asia,2019,69,gdp_per_capita,1.16492,49
+Gabon,4.121,Africa,2019,119,gdp_per_capita,1.15851,50
+Argentina,6.65,South America,2019,25,gdp_per_capita,1.15137,51
+Mauritius,5.648,Africa,2019,59,gdp_per_capita,1.14372,52
+Venezuela,6.084,South America,2019,39,gdp_per_capita,1.13367,53
+Belarus,5.802,Europe,2019,55,gdp_per_capita,1.13062,54
+Azerbaijan,5.291,Asia,2019,72,gdp_per_capita,1.12373,55
+Lebanon,5.129,Asia,2019,83,gdp_per_capita,1.12268,56
+Iran,4.813,Asia,2019,92,gdp_per_capita,1.11758,57
+Mexico,6.778,North America,2019,20,gdp_per_capita,1.11508,58
+Bulgaria,4.217,Europe,2019,115,gdp_per_capita,1.11306,59
+Botswana,3.974,Africa,2019,122,gdp_per_capita,1.09426,60
+Thailand,6.474,Asia,2019,32,gdp_per_capita,1.0893,61
+Brazil,6.952,South America,2019,16,gdp_per_capita,1.08754,62
+Turkmenistan,5.658,Asia,2019,58,gdp_per_capita,1.08017,63
+Montenegro,5.161,Europe,2019,78,gdp_per_capita,1.07838,64
+Iraq,4.575,Asia,2019,99,gdp_per_capita,1.07474,65
+Costa Rica,7.087,South America,2019,14,gdp_per_capita,1.06879,66
+Libya,5.615,Africa,2019,60,gdp_per_capita,1.06688,67
+Algeria,6.355,Africa,2019,35,gdp_per_capita,1.05266,68
+Serbia,5.177,Europe,2019,76,gdp_per_capita,1.03437,69
+Colombia,6.481,South America,2019,30,gdp_per_capita,1.03032,70
+Dominican Republic,5.155,South America,2019,79,gdp_per_capita,1.02787,71
+China,5.245,Asia,2019,74,gdp_per_capita,1.0278,72
+South Africa,4.459,Africa,2019,102,gdp_per_capita,1.02416,73
+Jordan,5.303,Asia,2019,71,gdp_per_capita,0.99673,74
+Peru,5.743,South America,2019,57,gdp_per_capita,0.99602,75
+Mongolia,4.907,Asia,2019,89,gdp_per_capita,0.98853,76
+Tunisia,5.045,Africa,2019,86,gdp_per_capita,0.97724,77
+Sri Lanka,4.415,Asia,2019,103,gdp_per_capita,0.97318,78
+Ecuador,5.976,South America,2019,46,gdp_per_capita,0.97306,79
+Albania,4.655,Europe,2019,96,gdp_per_capita,0.9553,80
+Egypt,4.362,Africa,2019,106,gdp_per_capita,0.95395,81
+Indonesia,5.314,Asia,2019,70,gdp_per_capita,0.95104,82
+Bosnia and Herzegovina,5.163,Europe,2019,77,gdp_per_capita,0.93383,83
+Kosovo,5.401,Europe,2019,68,gdp_per_capita,0.90145,84
+Paraguay,5.538,South America,2019,63,gdp_per_capita,0.89373,85
+Jamaica,5.51,South America,2019,66,gdp_per_capita,0.89333,86
+El Salvador,6.068,South America,2019,41,gdp_per_capita,0.8737,87
+Ukraine,4.324,Europe,2019,109,gdp_per_capita,0.87287,88
+Armenia,4.36,Asia,2019,107,gdp_per_capita,0.86086,89
+Morocco,5.151,Africa,2019,80,gdp_per_capita,0.84058,90
+Georgia,4.252,Asia,2019,112,gdp_per_capita,0.83792,91
+Guatemala,6.324,South America,2019,36,gdp_per_capita,0.83454,92
+Philippines,5.279,Asia,2019,73,gdp_per_capita,0.81217,93
+Bolivia,5.822,South America,2019,53,gdp_per_capita,0.79422,94
+Congo (Brazzaville),4.236,Africa,2019,113,gdp_per_capita,0.77109,95
+Nigeria,4.875,Africa,2019,90,gdp_per_capita,0.75216,96
+Vietnam,5.061,Asia,2019,85,gdp_per_capita,0.74037,97
+India,4.404,Asia,2019,104,gdp_per_capita,0.74036,98
+Uzbekistan,5.987,Asia,2019,44,gdp_per_capita,0.73591,99
+Honduras,4.871,South America,2019,91,gdp_per_capita,0.69429,100
+Nicaragua,5.992,South America,2019,43,gdp_per_capita,0.69384,101
+Moldova,5.897,Europe,2019,49,gdp_per_capita,0.69177,102
+Pakistan,5.132,Asia,2019,82,gdp_per_capita,0.68816,103
+Palestinian Territories,4.754,Asia,2019,95,gdp_per_capita,0.67024,104
+Ghana,4.276,Africa,2019,110,gdp_per_capita,0.63107,105
+Mauritania,4.201,Africa,2019,116,gdp_per_capita,0.61391,106
+Zambia,4.795,Africa,2019,93,gdp_per_capita,0.61202,107
+Yemen,3.724,Asia,2019,129,gdp_per_capita,0.57939,108
+Kyrgyzstan,5.185,Asia,2019,75,gdp_per_capita,0.56044,109
+Cambodia,3.907,Asia,2019,124,gdp_per_capita,0.55604,110
+Ivory Coast,3.916,Africa,2019,123,gdp_per_capita,0.55507,111
+Bangladesh,4.643,Asia,2019,97,gdp_per_capita,0.54177,112
+Cameroon,4.513,Africa,2019,100,gdp_per_capita,0.52497,113
+Kenya,4.356,Africa,2019,108,gdp_per_capita,0.52267,114
+Tajikistan,4.996,Asia,2019,88,gdp_per_capita,0.48835,115
+Tanzania,3.666,Africa,2019,131,gdp_per_capita,0.47155,116
+Nepal,4.793,Asia,2019,94,gdp_per_capita,0.44626,117
+Senegal,4.219,Africa,2019,114,gdp_per_capita,0.44314,118
+Chad,3.763,Africa,2019,126,gdp_per_capita,0.42214,119
+Benin,3.484,Africa,2019,135,gdp_per_capita,0.39499,120
+Afghanistan,3.36,Asia,2019,136,gdp_per_capita,0.38227,121
+Sierra Leone,4.635,Africa,2019,98,gdp_per_capita,0.36485,122
+Zimbabwe,4.193,Africa,2019,117,gdp_per_capita,0.35041,123
+Uganda,3.739,Africa,2019,128,gdp_per_capita,0.34719,124
+Myanmar,4.395,Asia,2019,105,gdp_per_capita,0.34112,125
+Haiti,4.028,South America,2019,121,gdp_per_capita,0.34097,126
+Rwanda,3.515,Africa,2019,134,gdp_per_capita,0.32846,127
+Burkina Faso,3.739,Africa,2019,127,gdp_per_capita,0.31995,128
+Mali,4.073,Africa,2019,120,gdp_per_capita,0.31292,129
+Ethiopia,4.508,Africa,2019,101,gdp_per_capita,0.29283,130
+Togo,3.303,Africa,2019,137,gdp_per_capita,0.28123,131
+Madagascar,3.695,Africa,2019,130,gdp_per_capita,0.27954,132
+Guinea,3.607,South America,2019,133,gdp_per_capita,0.22415,133
+Niger,3.856,Africa,2019,125,gdp_per_capita,0.1327,134
+Liberia,3.622,Africa,2019,132,gdp_per_capita,0.10706,135
+Malawi,4.156,Africa,2019,118,gdp_per_capita,0.08709,136
+Burundi,2.905,Africa,2019,138,gdp_per_capita,0.06831,137
+Congo (Kinshasa),4.272,Africa,2019,111,gdp_per_capita,0.05661,138
+Iceland,7.501,Europe,2019,3,family,1.18326,1
+New Zealand,7.334,Australia,2019,8,family,1.17278,2
+Uzbekistan,5.987,Asia,2019,44,family,1.1681,3
+Denmark,7.526,Europe,2019,1,family,1.16374,4
+Ireland,6.907,Europe,2019,18,family,1.16157,5
+Switzerland,7.509,Europe,2019,2,family,1.14524,6
+Finland,7.413,Europe,2019,5,family,1.13464,7
+Spain,6.361,Europe,2019,34,family,1.12945,8
+Norway,7.498,Europe,2019,4,family,1.1269,9
+Paraguay,5.538,South America,2019,63,family,1.11111,10
+Australia,7.313,Australia,2019,9,family,1.10476,11
+Malta,6.488,Europe,2019,29,family,1.09879,12
+Germany,6.994,Europe,2019,15,family,1.09774,13
+Canada,7.404,North America,2019,6,family,1.0961,14
+Mongolia,4.907,Asia,2019,89,family,1.08983,15
+Sweden,7.291,Europe,2019,10,family,1.08764,16
+United Kingdom,6.725,Europe,2019,22,family,1.08672,17
+Austria,7.119,Europe,2019,12,family,1.08383,18
+Slovakia,6.078,Europe,2019,40,family,1.08268,19
+Argentina,6.65,South America,2019,25,family,1.06612,20
+Lithuania,5.813,Europe,2019,54,family,1.06411,21
+Japan,5.921,Asia,2019,47,family,1.06054,22
+Slovenia,5.768,Europe,2019,56,family,1.05613,23
+Russia,5.856,Europe,2019,50,family,1.05261,24
+Belgium,6.929,Europe,2019,17,family,1.05249,25
+Estonia,5.517,Europe,2019,65,family,1.05163,26
+Belarus,5.802,Europe,2019,55,family,1.04993,27
+United States of America,7.104,North America,2019,13,family,1.04782,28
+Poland,5.835,Europe,2019,52,family,1.04685,29
+Thailand,6.474,Asia,2019,32,family,1.04477,30
+Italy,5.977,Europe,2019,45,family,1.04167,31
+Luxembourg,6.871,Europe,2019,19,family,1.03999,32
+Brazil,6.952,South America,2019,16,family,1.03938,33
+Turkmenistan,5.658,Asia,2019,58,family,1.03817,34
+Venezuela,6.084,South America,2019,39,family,1.03302,35
+Uruguay,6.545,South America,2019,28,family,1.03143,36
+Netherlands,7.339,Europe,2019,7,family,1.02912,37
+Colombia,6.481,South America,2019,30,family,1.02169,38
+Costa Rica,7.087,South America,2019,14,family,1.02152,39
+Ukraine,4.324,Europe,2019,109,family,1.01413,40
+Czech Republic,6.596,Europe,2019,26,family,1.00793,41
+France,6.478,Europe,2019,31,family,1.00508,42
+Israel,7.267,Asia,2019,11,family,0.99537,43
+Dominican Republic,5.155,South America,2019,79,family,0.99496,44
+Panama,6.701,South America,2019,24,family,0.98912,45
+Jamaica,5.51,South America,2019,66,family,0.96372,46
+South Africa,4.459,Africa,2019,102,family,0.96053,47
+Kazakhstan,5.919,Asia,2019,48,family,0.95544,48
+Kyrgyzstan,5.185,Asia,2019,75,family,0.95434,49
+Libya,5.615,Africa,2019,60,family,0.95076,50
+Latvia,5.56,Europe,2019,61,family,0.95025,51
+Bahrain,6.218,Asia,2019,38,family,0.94397,52
+Portugal,5.123,Europe,2019,84,family,0.94367,53
+Hungary,5.145,Europe,2019,81,family,0.93164,54
+Bulgaria,4.217,Europe,2019,115,family,0.92542,55
+Uganda,3.739,Africa,2019,128,family,0.90981,56
+Chile,6.705,South America,2019,23,family,0.90587,57
+Nicaragua,5.992,South America,2019,43,family,0.89521,58
+Botswana,3.974,Africa,2019,122,family,0.89186,59
+Malaysia,6.005,Asia,2019,42,family,0.88025,60
+Philippines,5.279,Asia,2019,73,family,0.87877,61
+Kuwait,6.239,Asia,2019,37,family,0.87758,62
+Turkey,5.389,Asia,2019,69,family,0.87717,63
+Indonesia,5.314,Asia,2019,70,family,0.87625,64
+Guatemala,6.324,South America,2019,36,family,0.87119,65
+United Arab Emirates,6.573,Asia,2019,27,family,0.87114,66
+Singapore,6.739,Asia,2019,21,family,0.86758,67
+Mali,4.073,Africa,2019,120,family,0.86333,68
+Jordan,5.303,Asia,2019,71,family,0.86216,69
+Ecuador,5.976,South America,2019,46,family,0.85974,70
+Saudi Arabia,6.379,Asia,2019,33,family,0.84829,71
+Sri Lanka,4.415,Asia,2019,103,family,0.84783,72
+Mauritania,4.201,Africa,2019,116,family,0.84142,73
+Bolivia,5.822,South America,2019,53,family,0.83779,74
+Algeria,6.355,Africa,2019,35,family,0.83309,75
+Moldova,5.897,Europe,2019,49,family,0.83132,76
+Serbia,5.177,Europe,2019,76,family,0.81329,77
+Peru,5.743,South America,2019,57,family,0.81255,78
+El Salvador,6.068,South America,2019,41,family,0.80975,79
+Congo (Kinshasa),4.272,Africa,2019,111,family,0.80676,80
+China,5.245,Asia,2019,74,family,0.79381,81
+Vietnam,5.061,Asia,2019,85,family,0.79117,82
+Tanzania,3.666,Africa,2019,131,family,0.77623,83
+Senegal,4.219,Africa,2019,114,family,0.77416,84
+Kenya,4.356,Africa,2019,108,family,0.7624,85
+Azerbaijan,5.291,Asia,2019,72,family,0.76042,86
+Mauritius,5.648,Africa,2019,59,family,0.75695,87
+Tajikistan,4.996,Asia,2019,88,family,0.75602,88
+Honduras,4.871,South America,2019,91,family,0.75596,89
+Greece,5.033,Europe,2019,87,family,0.75473,90
+Montenegro,5.161,Europe,2019,78,family,0.74173,91
+Romania,5.528,Europe,2019,64,family,0.72803,92
+Gabon,4.121,Africa,2019,119,family,0.72368,93
+South Korea,5.835,Asia,2019,51,family,0.72194,94
+Palestinian Territories,4.754,Asia,2019,95,family,0.71629,95
+Zimbabwe,4.193,Africa,2019,117,family,0.71478,96
+Mexico,6.778,North America,2019,20,family,0.7146,97
+Cyprus,5.546,Asia,2019,62,family,0.70697,98
+Myanmar,4.395,Asia,2019,105,family,0.69981,99
+Nepal,4.793,Asia,2019,94,family,0.69699,100
+Kosovo,5.401,Europe,2019,68,family,0.66062,101
+Nigeria,4.875,Africa,2019,90,family,0.64498,102
+Bosnia and Herzegovina,5.163,Europe,2019,77,family,0.64367,103
+Lebanon,5.129,Asia,2019,83,family,0.64184,104
+Zambia,4.795,Africa,2019,93,family,0.6376,105
+Chad,3.763,Africa,2019,126,family,0.63178,106
+Burkina Faso,3.739,Africa,2019,127,family,0.63054,107
+Sierra Leone,4.635,Africa,2019,98,family,0.628,108
+Cameroon,4.513,Africa,2019,100,family,0.62542,109
+Armenia,4.36,Asia,2019,107,family,0.62477,110
+Rwanda,3.515,Africa,2019,134,family,0.61586,111
+Croatia,5.488,Europe,2019,67,family,0.60809,112
+Niger,3.856,Africa,2019,125,family,0.6053,113
+Iraq,4.575,Asia,2019,99,family,0.59205,114
+Ivory Coast,3.916,Africa,2019,123,family,0.57576,115
+Cambodia,3.907,Asia,2019,124,family,0.5375,116
+Liberia,3.622,Africa,2019,132,family,0.50353,117
+Albania,4.655,Europe,2019,96,family,0.50163,118
+Egypt,4.362,Africa,2019,106,family,0.49813,119
+Ghana,4.276,Africa,2019,110,family,0.49353,120
+Congo (Brazzaville),4.236,Africa,2019,113,family,0.47799,121
+Yemen,3.724,Asia,2019,129,family,0.47493,122
+Madagascar,3.695,Africa,2019,130,family,0.46115,123
+Tunisia,5.045,Africa,2019,86,family,0.43165,124
+Iran,4.813,Asia,2019,92,family,0.38857,125
+Morocco,5.151,Africa,2019,80,family,0.38595,126
+Ethiopia,4.508,Africa,2019,101,family,0.37932,127
+Guinea,3.607,South America,2019,133,family,0.3109,128
+Haiti,4.028,South America,2019,121,family,0.29561,129
+India,4.404,Asia,2019,104,family,0.29247,130
+Pakistan,5.132,Asia,2019,82,family,0.26135,131
+Bangladesh,4.643,Asia,2019,97,family,0.24749,132
+Burundi,2.905,Africa,2019,138,family,0.23442,133
+Georgia,4.252,Asia,2019,112,family,0.19249,134
+Malawi,4.156,Africa,2019,118,family,0.147,135
+Afghanistan,3.36,Asia,2019,136,family,0.11037,136
+Benin,3.484,Africa,2019,135,family,0.10419,137
+Togo,3.303,Africa,2019,137,family,0,138
+Singapore,6.739,Asia,2019,21,health,0.94719,1
+Japan,5.921,Asia,2019,47,health,0.91491,2
+South Korea,5.835,Asia,2019,51,health,0.88645,3
+Spain,6.361,Europe,2019,34,health,0.87896,4
+Iceland,7.501,Europe,2019,3,health,0.86733,5
+Switzerland,7.509,Europe,2019,2,health,0.86303,6
+Australia,7.313,Australia,2019,9,health,0.8512,7
+Italy,5.977,Europe,2019,45,health,0.85102,8
+Israel,7.267,Asia,2019,11,health,0.84917,9
+Cyprus,5.546,Asia,2019,62,health,0.8488,10
+Luxembourg,6.871,Europe,2019,19,health,0.84542,11
+France,6.478,Europe,2019,31,health,0.83795,12
+Sweden,7.291,Europe,2019,10,health,0.83121,13
+New Zealand,7.334,Australia,2019,8,health,0.83096,14
+Canada,7.404,North America,2019,6,health,0.8276,15
+Belgium,6.929,Europe,2019,17,health,0.81959,16
+Chile,6.705,South America,2019,23,health,0.81883,17
+Germany,6.994,Europe,2019,15,health,0.81487,18
+Ireland,6.907,Europe,2019,18,health,0.81455,19
+Netherlands,7.339,Europe,2019,7,health,0.81231,20
+Finland,7.413,Europe,2019,5,health,0.81091,21
+United Kingdom,6.725,Europe,2019,22,health,0.80991,22
+Austria,7.119,Europe,2019,12,health,0.80565,23
+Malta,6.488,Europe,2019,29,health,0.80315,24
+Greece,5.033,Europe,2019,87,health,0.80029,25
+Norway,7.498,Europe,2019,4,health,0.79579,26
+Denmark,7.526,Europe,2019,1,health,0.79504,27
+Portugal,5.123,Europe,2019,84,health,0.79363,28
+Slovenia,5.768,Europe,2019,56,health,0.79151,29
+United States of America,7.104,North America,2019,13,health,0.779,30
+Czech Republic,6.596,Europe,2019,26,health,0.76376,31
+Lebanon,5.129,Asia,2019,83,health,0.76171,32
+Costa Rica,7.087,South America,2019,14,health,0.76146,33
+China,5.245,Asia,2019,74,health,0.73561,34
+Albania,4.655,Europe,2019,96,health,0.73007,35
+United Arab Emirates,6.573,Asia,2019,27,health,0.72993,36
+Uruguay,6.545,South America,2019,28,health,0.72183,37
+Mexico,6.778,North America,2019,20,health,0.71143,38
+Panama,6.701,South America,2019,24,health,0.70835,39
+Bosnia and Herzegovina,5.163,Europe,2019,77,health,0.70766,40
+Croatia,5.488,Europe,2019,67,health,0.70524,41
+Slovakia,6.078,Europe,2019,40,health,0.70367,42
+Argentina,6.65,South America,2019,25,health,0.69711,43
+Poland,5.835,Europe,2019,52,health,0.69058,44
+Ecuador,5.976,South America,2019,46,health,0.68613,45
+Estonia,5.517,Europe,2019,65,health,0.68098,46
+Bulgaria,4.217,Europe,2019,115,health,0.67806,47
+Hungary,5.145,Europe,2019,81,health,0.67608,48
+Romania,5.528,Europe,2019,64,health,0.67602,49
+Mauritius,5.648,Africa,2019,59,health,0.66189,50
+Vietnam,5.061,Asia,2019,85,health,0.66157,51
+Bahrain,6.218,Asia,2019,38,health,0.65696,52
+Nicaragua,5.992,South America,2019,43,health,0.65213,53
+Thailand,6.474,Asia,2019,32,health,0.64915,54
+Turkey,5.389,Asia,2019,69,health,0.64718,55
+Lithuania,5.813,Europe,2019,54,health,0.64674,56
+Serbia,5.177,Europe,2019,76,health,0.6458,57
+Iran,4.813,Asia,2019,92,health,0.64232,58
+Armenia,4.36,Asia,2019,107,health,0.64083,59
+Georgia,4.252,Asia,2019,112,health,0.64035,60
+Latvia,5.56,Europe,2019,61,health,0.63952,61
+Kuwait,6.239,Asia,2019,37,health,0.63569,62
+Montenegro,5.161,Europe,2019,78,health,0.63533,63
+Belarus,5.802,Europe,2019,55,health,0.63104,64
+Peru,5.743,South America,2019,57,health,0.62994,65
+Malaysia,6.005,Asia,2019,42,health,0.62366,66
+Sri Lanka,4.415,Asia,2019,103,health,0.62007,67
+Venezuela,6.084,South America,2019,39,health,0.61904,68
+Algeria,6.355,Africa,2019,35,health,0.61804,69
+Brazil,6.952,South America,2019,16,health,0.61415,70
+Jordan,5.303,Asia,2019,71,health,0.60712,71
+Colombia,6.481,South America,2019,30,health,0.59659,72
+El Salvador,6.068,South America,2019,41,health,0.596,73
+Tunisia,5.045,Africa,2019,86,health,0.59577,74
+Morocco,5.151,Africa,2019,80,health,0.59471,75
+Jamaica,5.51,South America,2019,66,health,0.59469,76
+Saudi Arabia,6.379,Asia,2019,33,health,0.59267,77
+Russia,5.856,Europe,2019,50,health,0.58991,78
+Ukraine,4.324,Europe,2019,109,health,0.58628,79
+Honduras,4.871,South America,2019,91,health,0.58383,80
+Paraguay,5.538,South America,2019,63,health,0.58295,81
+Dominican Republic,5.155,South America,2019,79,health,0.57669,82
+Kazakhstan,5.919,Asia,2019,48,health,0.57386,83
+Palestinian Territories,4.754,Asia,2019,95,health,0.56844,84
+Mongolia,4.907,Asia,2019,89,health,0.55469,85
+Kyrgyzstan,5.185,Asia,2019,75,health,0.55449,86
+Azerbaijan,5.291,Asia,2019,72,health,0.54504,87
+Guatemala,6.324,South America,2019,36,health,0.54039,88
+Kosovo,5.401,Europe,2019,68,health,0.54,89
+Tajikistan,4.996,Asia,2019,88,health,0.53119,90
+Bangladesh,4.643,Asia,2019,97,health,0.52989,91
+Moldova,5.897,Europe,2019,49,health,0.52309,92
+Libya,5.615,Africa,2019,60,health,0.52304,93
+Egypt,4.362,Africa,2019,106,health,0.52116,94
+Iraq,4.575,Asia,2019,99,health,0.51076,95
+Uzbekistan,5.987,Asia,2019,44,health,0.50163,96
+Nepal,4.793,Asia,2019,94,health,0.50073,97
+Indonesia,5.314,Asia,2019,70,health,0.49374,98
+Philippines,5.279,Asia,2019,73,health,0.47036,99
+Bolivia,5.822,South America,2019,53,health,0.4697,100
+India,4.404,Asia,2019,104,health,0.45091,101
+Turkmenistan,5.658,Asia,2019,58,health,0.44006,102
+Cambodia,3.907,Asia,2019,124,health,0.42494,103
+Senegal,4.219,Africa,2019,114,health,0.40457,104
+Pakistan,5.132,Asia,2019,82,health,0.40306,105
+Myanmar,4.395,Asia,2019,105,health,0.3988,106
+Madagascar,3.695,Africa,2019,130,health,0.37109,107
+Tanzania,3.666,Africa,2019,131,health,0.357,108
+Gabon,4.121,Africa,2019,119,health,0.3494,109
+Botswana,3.974,Africa,2019,122,health,0.34752,110
+Ethiopia,4.508,Africa,2019,101,health,0.34578,111
+Rwanda,3.515,Africa,2019,134,health,0.31865,112
+Yemen,3.724,Asia,2019,129,health,0.31048,113
+Kenya,4.356,Africa,2019,108,health,0.30147,114
+Ghana,4.276,Africa,2019,110,health,0.29681,115
+Malawi,4.156,Africa,2019,118,health,0.29364,116
+Mauritania,4.201,Africa,2019,116,health,0.28639,117
+Congo (Brazzaville),4.236,Africa,2019,113,health,0.28212,118
+Haiti,4.028,South America,2019,121,health,0.27494,119
+Niger,3.856,Africa,2019,125,health,0.26162,120
+Togo,3.303,Africa,2019,137,health,0.24811,121
+Zambia,4.795,Africa,2019,93,health,0.23573,122
+Liberia,3.622,Africa,2019,132,health,0.23165,123
+Burkina Faso,3.739,Africa,2019,127,health,0.21297,124
+Benin,3.484,Africa,2019,135,health,0.21028,125
+Uganda,3.739,Africa,2019,128,health,0.19625,126
+Guinea,3.607,South America,2019,133,health,0.18829,127
+Congo (Kinshasa),4.272,Africa,2019,111,health,0.188,128
+South Africa,4.459,Africa,2019,102,health,0.18611,129
+Afghanistan,3.36,Asia,2019,136,health,0.17344,130
+Mali,4.073,Africa,2019,120,health,0.16347,131
+Zimbabwe,4.193,Africa,2019,117,health,0.1595,132
+Burundi,2.905,Africa,2019,138,health,0.15747,133
+Cameroon,4.513,Africa,2019,100,health,0.12698,134
+Nigeria,4.875,Africa,2019,90,health,0.05108,135
+Ivory Coast,3.916,Africa,2019,123,health,0.04476,136
+Chad,3.763,Africa,2019,126,health,0.03824,137
+Sierra Leone,4.635,Africa,2019,98,health,0,138
+Uzbekistan,5.987,Asia,2019,44,freedom,0.60848,1
+Norway,7.498,Europe,2019,4,freedom,0.59609,2
+Cambodia,3.907,Asia,2019,124,freedom,0.58852,3
+Switzerland,7.509,Europe,2019,2,freedom,0.58557,4
+Sweden,7.291,Europe,2019,10,freedom,0.58218,5
+New Zealand,7.334,Australia,2019,8,freedom,0.58147,6
+Denmark,7.526,Europe,2019,1,freedom,0.57941,7
+Canada,7.404,North America,2019,6,freedom,0.5737,8
+Finland,7.413,Europe,2019,5,freedom,0.57104,9
+Australia,7.313,Australia,2019,9,freedom,0.56837,10
+Iceland,7.501,Europe,2019,3,freedom,0.56624,11
+United Arab Emirates,6.573,Asia,2019,27,freedom,0.56215,12
+Vietnam,5.061,Asia,2019,85,freedom,0.55954,13
+Costa Rica,7.087,South America,2019,14,freedom,0.55225,14
+Netherlands,7.339,Europe,2019,7,freedom,0.55211,15
+Malta,6.488,Europe,2019,29,freedom,0.54994,16
+Luxembourg,6.871,Europe,2019,19,freedom,0.5487,17
+Philippines,5.279,Asia,2019,73,freedom,0.54854,18
+Uruguay,6.545,South America,2019,28,freedom,0.54388,19
+Austria,7.119,Europe,2019,12,freedom,0.54355,20
+Rwanda,3.515,Africa,2019,134,freedom,0.5432,21
+Ireland,6.907,Europe,2019,18,freedom,0.54008,22
+Germany,6.994,Europe,2019,15,freedom,0.53466,23
+Slovenia,5.768,Europe,2019,56,freedom,0.53164,24
+Dominican Republic,5.155,South America,2019,79,freedom,0.52259,25
+Belgium,6.929,Europe,2019,17,freedom,0.51354,26
+Bolivia,5.822,South America,2019,53,freedom,0.50961,27
+Sri Lanka,4.415,Asia,2019,103,freedom,0.50817,28
+Guatemala,6.324,South America,2019,36,freedom,0.50379,29
+United Kingdom,6.725,Europe,2019,22,freedom,0.50036,30
+Thailand,6.474,Asia,2019,32,freedom,0.49553,31
+Panama,6.701,South America,2019,24,freedom,0.48927,32
+Singapore,6.739,Asia,2019,21,freedom,0.4877,33
+United States of America,7.104,North America,2019,13,freedom,0.48163,34
+Bahrain,6.218,Asia,2019,38,freedom,0.47375,35
+Japan,5.921,Asia,2019,47,freedom,0.46761,36
+Nicaragua,5.992,South America,2019,43,freedom,0.46582,37
+France,6.478,Europe,2019,31,freedom,0.46562,38
+Paraguay,5.538,South America,2019,63,freedom,0.46235,39
+Mauritius,5.648,Africa,2019,59,freedom,0.46145,40
+Poland,5.835,Europe,2019,52,freedom,0.4519,41
+Colombia,6.481,South America,2019,30,freedom,0.44735,42
+Portugal,5.123,Europe,2019,84,freedom,0.44727,43
+Botswana,3.974,Africa,2019,122,freedom,0.44089,44
+China,5.245,Asia,2019,74,freedom,0.44012,45
+Uganda,3.739,Africa,2019,128,freedom,0.43653,46
+Jamaica,5.51,South America,2019,66,freedom,0.43597,47
+Tajikistan,4.996,Asia,2019,88,freedom,0.43408,48
+Kuwait,6.239,Asia,2019,37,freedom,0.43166,49
+Cameroon,4.513,Africa,2019,100,freedom,0.42736,50
+Myanmar,4.395,Asia,2019,105,freedom,0.42692,51
+Zambia,4.795,Africa,2019,93,freedom,0.42662,52
+South Africa,4.459,Africa,2019,102,freedom,0.42483,53
+Argentina,6.65,South America,2019,25,freedom,0.42284,54
+Estonia,5.517,Europe,2019,65,freedom,0.41511,55
+Malawi,4.156,Africa,2019,118,freedom,0.4143,56
+Czech Republic,6.596,Europe,2019,26,freedom,0.41418,57
+Ghana,4.276,Africa,2019,110,freedom,0.40973,58
+Libya,5.615,Africa,2019,60,freedom,0.40672,59
+Ivory Coast,3.916,Africa,2019,123,freedom,0.40663,60
+Kenya,4.356,Africa,2019,108,freedom,0.40576,61
+Kazakhstan,5.919,Asia,2019,48,freedom,0.4052,62
+Brazil,6.952,South America,2019,16,freedom,0.40425,63
+India,4.404,Asia,2019,104,freedom,0.40285,64
+Ecuador,5.976,South America,2019,46,freedom,0.4027,65
+Kyrgyzstan,5.185,Asia,2019,75,freedom,0.40212,66
+Bangladesh,4.643,Asia,2019,97,freedom,0.39778,67
+Benin,3.484,Africa,2019,135,freedom,0.39747,68
+Indonesia,5.314,Asia,2019,70,freedom,0.39237,69
+Malaysia,6.005,Asia,2019,42,freedom,0.39031,70
+Niger,3.856,Africa,2019,125,freedom,0.38041,71
+Congo (Brazzaville),4.236,Africa,2019,113,freedom,0.37938,72
+Saudi Arabia,6.379,Asia,2019,33,freedom,0.37904,73
+Chile,6.705,South America,2019,23,freedom,0.37789,74
+Mexico,6.778,North America,2019,20,freedom,0.37709,75
+Spain,6.361,Europe,2019,34,freedom,0.37545,76
+Peru,5.743,South America,2019,57,freedom,0.37502,77
+Turkmenistan,5.658,Asia,2019,58,freedom,0.37408,78
+El Salvador,6.068,South America,2019,41,freedom,0.37269,79
+Nepal,4.793,Asia,2019,94,freedom,0.37012,80
+Romania,5.528,Europe,2019,64,freedom,0.36712,81
+Ethiopia,4.508,Africa,2019,101,freedom,0.36703,82
+Israel,7.267,Asia,2019,11,freedom,0.36432,83
+Jordan,5.303,Asia,2019,71,freedom,0.36023,84
+Mongolia,4.907,Asia,2019,89,freedom,0.35972,85
+Azerbaijan,5.291,Asia,2019,72,freedom,0.35327,86
+Togo,3.303,Africa,2019,137,freedom,0.34678,87
+Burkina Faso,3.739,Africa,2019,127,freedom,0.3337,88
+Russia,5.856,Europe,2019,50,freedom,0.32682,89
+Georgia,4.252,Asia,2019,112,freedom,0.32461,90
+Albania,4.655,Europe,2019,96,freedom,0.31866,91
+Tanzania,3.666,Africa,2019,131,freedom,0.3176,92
+Senegal,4.219,Africa,2019,114,freedom,0.31056,93
+Guinea,3.607,South America,2019,133,freedom,0.30953,94
+Sierra Leone,4.635,Africa,2019,98,freedom,0.30685,95
+Cyprus,5.546,Asia,2019,62,freedom,0.29507,96
+Belarus,5.802,Europe,2019,55,freedom,0.29091,97
+Gabon,4.121,Africa,2019,119,freedom,0.28098,98
+Latvia,5.56,Europe,2019,61,freedom,0.27996,99
+Nigeria,4.875,Africa,2019,90,freedom,0.27854,100
+Mali,4.073,Africa,2019,120,freedom,0.27544,101
+Honduras,4.871,South America,2019,91,freedom,0.26755,102
+Lebanon,5.129,Asia,2019,83,freedom,0.26228,103
+Liberia,3.622,Africa,2019,132,freedom,0.25748,104
+Morocco,5.151,Africa,2019,80,freedom,0.25646,105
+Zimbabwe,4.193,Africa,2019,117,freedom,0.25429,106
+Moldova,5.897,Europe,2019,49,freedom,0.25202,107
+South Korea,5.835,Asia,2019,51,freedom,0.25168,108
+Iraq,4.575,Asia,2019,99,freedom,0.24856,109
+Croatia,5.488,Europe,2019,67,freedom,0.23907,110
+Turkey,5.389,Asia,2019,69,freedom,0.23889,111
+Tunisia,5.045,Africa,2019,86,freedom,0.23553,112
+Slovakia,6.078,Europe,2019,40,freedom,0.23391,113
+Yemen,3.724,Asia,2019,129,freedom,0.2287,114
+Iran,4.813,Asia,2019,92,freedom,0.22544,115
+Bulgaria,4.217,Europe,2019,115,freedom,0.21219,116
+Algeria,6.355,Africa,2019,35,freedom,0.21006,117
+Venezuela,6.084,South America,2019,39,freedom,0.19847,118
+Hungary,5.145,Europe,2019,81,freedom,0.1977,119
+Lithuania,5.813,Europe,2019,54,freedom,0.18929,120
+Egypt,4.362,Africa,2019,106,freedom,0.18847,121
+Italy,5.977,Europe,2019,45,freedom,0.18827,122
+Palestinian Territories,4.754,Asia,2019,95,freedom,0.17744,123
+Afghanistan,3.36,Asia,2019,136,freedom,0.1643,124
+Serbia,5.177,Europe,2019,76,freedom,0.15718,125
+Congo (Kinshasa),4.272,Africa,2019,111,freedom,0.15602,126
+Montenegro,5.161,Europe,2019,78,freedom,0.15111,127
+Pakistan,5.132,Asia,2019,82,freedom,0.14622,128
+Kosovo,5.401,Europe,2019,68,freedom,0.14396,129
+Armenia,4.36,Asia,2019,107,freedom,0.14037,130
+Madagascar,3.695,Africa,2019,130,freedom,0.13684,131
+Ukraine,4.324,Europe,2019,109,freedom,0.12859,132
+Chad,3.763,Africa,2019,126,freedom,0.12807,133
+Mauritania,4.201,Africa,2019,116,freedom,0.1268,134
+Haiti,4.028,South America,2019,121,freedom,0.12072,135
+Bosnia and Herzegovina,5.163,Europe,2019,77,freedom,0.09511,136
+Greece,5.033,Europe,2019,87,freedom,0.05822,137
+Burundi,2.905,Africa,2019,138,freedom,0.0432,138
+Rwanda,3.515,Africa,2019,134,government_trust,0.50521,1
+Singapore,6.739,Asia,2019,21,government_trust,0.46987,2
+Denmark,7.526,Europe,2019,1,government_trust,0.44453,3
+New Zealand,7.334,Australia,2019,8,government_trust,0.41904,4
+Switzerland,7.509,Europe,2019,2,government_trust,0.41203,5
+Finland,7.413,Europe,2019,5,government_trust,0.41004,6
+Sweden,7.291,Europe,2019,10,government_trust,0.40867,7
+Norway,7.498,Europe,2019,4,government_trust,0.35776,8
+United Arab Emirates,6.573,Asia,2019,27,government_trust,0.35561,9
+Luxembourg,6.871,Europe,2019,19,government_trust,0.35329,10
+Australia,7.313,Australia,2019,9,government_trust,0.32331,11
+Georgia,4.252,Asia,2019,112,government_trust,0.3188,12
+Canada,7.404,North America,2019,6,government_trust,0.31329,13
+Saudi Arabia,6.379,Asia,2019,33,government_trust,0.30008,14
+Netherlands,7.339,Europe,2019,7,government_trust,0.29927,15
+Ireland,6.907,Europe,2019,18,government_trust,0.29754,16
+Germany,6.994,Europe,2019,15,government_trust,0.28551,17
+Turkmenistan,5.658,Asia,2019,58,government_trust,0.28467,18
+Uzbekistan,5.987,Asia,2019,44,government_trust,0.28333,19
+United Kingdom,6.725,Europe,2019,22,government_trust,0.27399,20
+Belgium,6.929,Europe,2019,17,government_trust,0.26248,21
+Bahrain,6.218,Asia,2019,38,government_trust,0.25772,22
+Kuwait,6.239,Asia,2019,37,government_trust,0.23669,23
+Uruguay,6.545,South America,2019,28,government_trust,0.21394,24
+Austria,7.119,Europe,2019,12,government_trust,0.21348,25
+Myanmar,4.395,Asia,2019,105,government_trust,0.20243,26
+Japan,5.921,Asia,2019,47,government_trust,0.18985,27
+Estonia,5.517,Europe,2019,65,government_trust,0.18519,28
+Mexico,6.778,North America,2019,20,government_trust,0.18355,29
+Ecuador,5.976,South America,2019,46,government_trust,0.18037,30
+Mauritania,4.201,Africa,2019,116,government_trust,0.17955,31
+Azerbaijan,5.291,Asia,2019,72,government_trust,0.17914,32
+France,6.478,Europe,2019,31,government_trust,0.17808,33
+Malta,6.488,Europe,2019,29,government_trust,0.17554,34
+Belarus,5.802,Europe,2019,55,government_trust,0.17457,35
+Niger,3.856,Africa,2019,125,government_trust,0.17176,36
+Ethiopia,4.508,Africa,2019,101,government_trust,0.1717,37
+Nicaragua,5.992,South America,2019,43,government_trust,0.16292,38
+Algeria,6.355,Africa,2019,35,government_trust,0.16157,39
+Ivory Coast,3.916,Africa,2019,123,government_trust,0.1553,40
+Iceland,7.501,Europe,2019,3,government_trust,0.14975,41
+United States of America,7.104,North America,2019,13,government_trust,0.14868,42
+Haiti,4.028,South America,2019,121,government_trust,0.14476,43
+Brazil,6.952,South America,2019,16,government_trust,0.14166,44
+Pakistan,5.132,Asia,2019,82,government_trust,0.1388,45
+Mali,4.073,Africa,2019,120,government_trust,0.13647,46
+Iraq,4.575,Asia,2019,99,government_trust,0.13636,47
+Tajikistan,4.996,Asia,2019,88,government_trust,0.13509,48
+Jordan,5.303,Asia,2019,71,government_trust,0.13297,49
+Montenegro,5.161,Europe,2019,78,government_trust,0.12721,50
+Bangladesh,4.643,Asia,2019,97,government_trust,0.12583,51
+Burkina Faso,3.739,Africa,2019,127,government_trust,0.12533,52
+Dominican Republic,5.155,South America,2019,79,government_trust,0.12372,53
+Turkey,5.389,Asia,2019,69,government_trust,0.12348,54
+Guinea,3.607,South America,2019,133,government_trust,0.1192,55
+Philippines,5.279,Asia,2019,73,government_trust,0.11757,56
+Senegal,4.219,Africa,2019,114,government_trust,0.11681,57
+Togo,3.303,Africa,2019,137,government_trust,0.11587,58
+Vietnam,5.061,Asia,2019,85,government_trust,0.11556,59
+Zambia,4.795,Africa,2019,93,government_trust,0.11479,60
+Chile,6.705,South America,2019,23,government_trust,0.11451,61
+Kazakhstan,5.919,Asia,2019,48,government_trust,0.11132,62
+Botswana,3.974,Africa,2019,122,government_trust,0.10769,63
+El Salvador,6.068,South America,2019,41,government_trust,0.10613,64
+Palestinian Territories,4.754,Asia,2019,95,government_trust,0.10613,65
+Costa Rica,7.087,South America,2019,14,government_trust,0.10547,66
+Egypt,4.362,Africa,2019,106,government_trust,0.10393,67
+Libya,5.615,Africa,2019,60,government_trust,0.10339,68
+Congo (Brazzaville),4.236,Africa,2019,113,government_trust,0.09753,69
+Burundi,2.905,Africa,2019,138,government_trust,0.09419,70
+Gabon,4.121,Africa,2019,119,government_trust,0.09314,71
+Malaysia,6.005,Asia,2019,42,government_trust,0.09081,72
+Latvia,5.56,Europe,2019,61,government_trust,0.0889,73
+Israel,7.267,Asia,2019,11,government_trust,0.08728,74
+India,4.404,Asia,2019,104,government_trust,0.08722,75
+Guatemala,6.324,South America,2019,36,government_trust,0.08701,76
+Zimbabwe,4.193,Africa,2019,117,government_trust,0.08582,77
+Panama,6.701,South America,2019,24,government_trust,0.08423,78
+South Africa,4.459,Africa,2019,102,government_trust,0.08415,79
+Morocco,5.151,Africa,2019,80,government_trust,0.08404,80
+Venezuela,6.084,South America,2019,39,government_trust,0.08304,81
+Sierra Leone,4.635,Africa,2019,98,government_trust,0.08196,82
+Tunisia,5.045,Africa,2019,86,government_trust,0.0817,83
+Cambodia,3.907,Asia,2019,124,government_trust,0.08092,84
+Sri Lanka,4.415,Asia,2019,103,government_trust,0.07964,85
+Bolivia,5.822,South America,2019,53,government_trust,0.07746,86
+South Korea,5.835,Asia,2019,51,government_trust,0.07716,87
+Malawi,4.156,Africa,2019,118,government_trust,0.07564,88
+Madagascar,3.695,Africa,2019,130,government_trust,0.07506,89
+Paraguay,5.538,South America,2019,63,government_trust,0.07396,90
+Argentina,6.65,South America,2019,25,government_trust,0.07296,91
+Afghanistan,3.36,Asia,2019,136,government_trust,0.07112,92
+Nepal,4.793,Asia,2019,94,government_trust,0.07008,93
+Honduras,4.871,South America,2019,91,government_trust,0.06906,94
+Kenya,4.356,Africa,2019,108,government_trust,0.06686,95
+Benin,3.484,Africa,2019,135,government_trust,0.06681,96
+Kosovo,5.401,Europe,2019,68,government_trust,0.06547,97
+Uganda,3.739,Africa,2019,128,government_trust,0.06442,98
+Spain,6.361,Europe,2019,34,government_trust,0.06137,99
+Cameroon,4.513,Africa,2019,100,government_trust,0.06126,100
+Congo (Kinshasa),4.272,Africa,2019,111,government_trust,0.06075,101
+Yemen,3.724,Asia,2019,129,government_trust,0.05892,102
+Iran,4.813,Asia,2019,92,government_trust,0.0557,103
+Poland,5.835,Europe,2019,52,government_trust,0.055,104
+Colombia,6.481,South America,2019,30,government_trust,0.05399,105
+Albania,4.655,Europe,2019,96,government_trust,0.05301,106
+Peru,5.743,South America,2019,57,government_trust,0.05292,107
+Cyprus,5.546,Asia,2019,62,government_trust,0.05228,108
+Mauritius,5.648,Africa,2019,59,government_trust,0.05203,109
+Tanzania,3.666,Africa,2019,131,government_trust,0.05099,110
+Chad,3.763,Africa,2019,126,government_trust,0.04952,111
+Liberia,3.622,Africa,2019,132,government_trust,0.04852,112
+Kyrgyzstan,5.185,Asia,2019,75,government_trust,0.04762,113
+Hungary,5.145,Europe,2019,81,government_trust,0.04472,114
+Serbia,5.177,Europe,2019,76,government_trust,0.04339,115
+Jamaica,5.51,South America,2019,66,government_trust,0.04294,116
+Greece,5.033,Europe,2019,87,government_trust,0.04127,117
+Croatia,5.488,Europe,2019,67,government_trust,0.04002,118
+Czech Republic,6.596,Europe,2019,26,government_trust,0.03986,119
+Slovenia,5.768,Europe,2019,56,government_trust,0.03635,120
+Armenia,4.36,Asia,2019,107,government_trust,0.03616,121
+Russia,5.856,Europe,2019,50,government_trust,0.03586,122
+Mongolia,4.907,Asia,2019,89,government_trust,0.03285,123
+Ghana,4.276,Africa,2019,110,government_trust,0.0326,124
+Lebanon,5.129,Asia,2019,83,government_trust,0.03061,125
+Nigeria,4.875,Africa,2019,90,government_trust,0.0305,126
+Slovakia,6.078,Europe,2019,40,government_trust,0.02947,127
+Thailand,6.474,Asia,2019,32,government_trust,0.02833,128
+China,5.245,Asia,2019,74,government_trust,0.02745,129
+Italy,5.977,Europe,2019,45,government_trust,0.02556,130
+Moldova,5.897,Europe,2019,49,government_trust,0.01903,131
+Ukraine,4.324,Europe,2019,109,government_trust,0.01829,132
+Lithuania,5.813,Europe,2019,54,government_trust,0.0182,133
+Portugal,5.123,Europe,2019,84,government_trust,0.01521,134
+Romania,5.528,Europe,2019,64,government_trust,0.00679,135
+Bulgaria,4.217,Europe,2019,115,government_trust,0.00615,136
+Indonesia,5.314,Asia,2019,70,government_trust,0.00322,137
+Bosnia and Herzegovina,5.163,Europe,2019,77,government_trust,0,138
+Myanmar,4.395,Asia,2019,105,generosity,0.81971,1
+Thailand,6.474,Asia,2019,32,generosity,0.58696,2
+Indonesia,5.314,Asia,2019,70,generosity,0.56521,3
+Malta,6.488,Europe,2019,29,generosity,0.56237,4
+United Kingdom,6.725,Europe,2019,22,generosity,0.50156,5
+New Zealand,7.334,Australia,2019,8,generosity,0.49401,6
+Haiti,4.028,South America,2019,121,generosity,0.47958,7
+Iceland,7.501,Europe,2019,3,generosity,0.47678,8
+Netherlands,7.339,Europe,2019,7,generosity,0.47416,9
+Australia,7.313,Australia,2019,9,generosity,0.47407,10
+Sri Lanka,4.415,Asia,2019,103,generosity,0.46978,11
+Ireland,6.907,Europe,2019,18,generosity,0.44963,12
+Canada,7.404,North America,2019,6,generosity,0.44834,13
+Malaysia,6.005,Asia,2019,42,generosity,0.41474,14
+Kenya,4.356,Africa,2019,108,generosity,0.41328,15
+United States of America,7.104,North America,2019,13,generosity,0.41077,16
+Cambodia,3.907,Asia,2019,124,generosity,0.40339,17
+Iran,4.813,Asia,2019,92,generosity,0.38538,18
+Kyrgyzstan,5.185,Asia,2019,75,generosity,0.38432,19
+Sweden,7.291,Europe,2019,10,generosity,0.38254,20
+Nepal,4.793,Asia,2019,94,generosity,0.3816,21
+Norway,7.498,Europe,2019,4,generosity,0.37895,22
+Mauritius,5.648,Africa,2019,59,generosity,0.36951,23
+Denmark,7.526,Europe,2019,1,generosity,0.36171,24
+Mongolia,4.907,Asia,2019,89,generosity,0.34539,25
+Uzbekistan,5.987,Asia,2019,44,generosity,0.34326,26
+Austria,7.119,Europe,2019,12,generosity,0.32865,27
+Singapore,6.739,Asia,2019,21,generosity,0.32706,28
+Israel,7.267,Asia,2019,11,generosity,0.32288,29
+Chile,6.705,South America,2019,23,generosity,0.31595,30
+Tanzania,3.666,Africa,2019,131,generosity,0.31472,31
+Afghanistan,3.36,Asia,2019,136,generosity,0.31268,32
+Pakistan,5.132,Asia,2019,82,generosity,0.31185,33
+Malawi,4.156,Africa,2019,118,generosity,0.30968,34
+Germany,6.994,Europe,2019,15,generosity,0.30452,35
+Guinea,3.607,South America,2019,133,generosity,0.29914,36
+Bosnia and Herzegovina,5.163,Europe,2019,77,generosity,0.29889,37
+Nicaragua,5.992,South America,2019,43,generosity,0.29773,38
+Ethiopia,4.508,Africa,2019,101,generosity,0.29522,39
+Guatemala,6.324,South America,2019,36,generosity,0.28808,40
+Switzerland,7.509,Europe,2019,2,generosity,0.28083,41
+Kosovo,5.401,Europe,2019,68,generosity,0.27992,42
+Cyprus,5.546,Asia,2019,62,generosity,0.27906,43
+Luxembourg,6.871,Europe,2019,19,generosity,0.27571,44
+Uganda,3.739,Africa,2019,128,generosity,0.27102,45
+United Arab Emirates,6.573,Asia,2019,27,generosity,0.26591,46
+Tajikistan,4.996,Asia,2019,88,generosity,0.25998,47
+Slovenia,5.768,Europe,2019,56,generosity,0.25738,48
+Finland,7.413,Europe,2019,5,generosity,0.25492,49
+Congo (Kinshasa),4.272,Africa,2019,111,generosity,0.25458,50
+Paraguay,5.538,South America,2019,63,generosity,0.25296,51
+Vietnam,5.061,Asia,2019,85,generosity,0.25075,52
+India,4.404,Asia,2019,104,generosity,0.25028,53
+Burkina Faso,3.739,Africa,2019,127,generosity,0.24353,54
+Belgium,6.929,Europe,2019,17,generosity,0.2424,55
+Panama,6.701,South America,2019,24,generosity,0.2418,56
+Liberia,3.622,Africa,2019,132,generosity,0.24063,57
+Sierra Leone,4.635,Africa,2019,98,generosity,0.23897,58
+Lebanon,5.129,Asia,2019,83,generosity,0.23693,59
+Rwanda,3.515,Africa,2019,134,generosity,0.23552,60
+Nigeria,4.875,Africa,2019,90,generosity,0.23219,61
+Mauritania,4.201,Africa,2019,116,generosity,0.22686,62
+Cameroon,4.513,Africa,2019,100,generosity,0.2268,63
+Turkmenistan,5.658,Asia,2019,58,generosity,0.22567,64
+Costa Rica,7.087,South America,2019,14,generosity,0.22553,65
+Jamaica,5.51,South America,2019,66,generosity,0.22245,66
+Madagascar,3.695,Africa,2019,130,generosity,0.2204,67
+Bolivia,5.822,South America,2019,53,generosity,0.21698,68
+Philippines,5.279,Asia,2019,73,generosity,0.21674,69
+Dominican Republic,5.155,South America,2019,79,generosity,0.21286,70
+Ghana,4.276,Africa,2019,110,generosity,0.21203,71
+Mali,4.073,Africa,2019,120,generosity,0.21064,72
+Niger,3.856,Africa,2019,125,generosity,0.2097,73
+Serbia,5.177,Europe,2019,76,generosity,0.20737,74
+Honduras,4.871,South America,2019,91,generosity,0.2044,75
+Ukraine,4.324,Europe,2019,109,generosity,0.20363,76
+Ivory Coast,3.916,Africa,2019,123,generosity,0.20338,77
+Burundi,2.905,Africa,2019,138,generosity,0.2029,78
+Benin,3.484,Africa,2019,135,generosity,0.2018,79
+Moldova,5.897,Europe,2019,49,generosity,0.19997,80
+Iraq,4.575,Asia,2019,99,generosity,0.19589,81
+Bangladesh,4.643,Asia,2019,97,generosity,0.19132,82
+Senegal,4.219,Africa,2019,114,generosity,0.19103,83
+South Korea,5.835,Asia,2019,51,generosity,0.18824,84
+Chad,3.763,Africa,2019,126,generosity,0.18667,85
+Zimbabwe,4.193,Africa,2019,117,generosity,0.18503,86
+Croatia,5.488,Europe,2019,67,generosity,0.18434,87
+Uruguay,6.545,South America,2019,28,generosity,0.18056,88
+Zambia,4.795,Africa,2019,93,generosity,0.17866,89
+Spain,6.361,Europe,2019,34,generosity,0.17665,90
+Togo,3.303,Africa,2019,137,generosity,0.17517,91
+Latvia,5.56,Europe,2019,61,generosity,0.17445,92
+Montenegro,5.161,Europe,2019,78,generosity,0.17191,93
+Bahrain,6.218,Asia,2019,38,generosity,0.17147,94
+Libya,5.615,Africa,2019,60,generosity,0.17087,95
+Albania,4.655,Europe,2019,96,generosity,0.1684,96
+Italy,5.977,Europe,2019,45,generosity,0.16684,97
+Kuwait,6.239,Asia,2019,37,generosity,0.15965,98
+Brazil,6.952,South America,2019,16,generosity,0.15776,99
+Colombia,6.481,South America,2019,30,generosity,0.15626,100
+Saudi Arabia,6.379,Asia,2019,33,generosity,0.15457,101
+Kazakhstan,5.919,Asia,2019,48,generosity,0.15011,102
+Peru,5.743,South America,2019,57,generosity,0.14527,103
+Poland,5.835,Europe,2019,52,generosity,0.14443,104
+Jordan,5.303,Asia,2019,71,generosity,0.14262,105
+Belarus,5.802,Europe,2019,55,generosity,0.13942,106
+Slovakia,6.078,Europe,2019,40,generosity,0.13837,107
+South Africa,4.459,Africa,2019,102,generosity,0.13656,108
+Romania,5.528,Europe,2019,64,generosity,0.12889,109
+Bulgaria,4.217,Europe,2019,115,generosity,0.12793,110
+Egypt,4.362,Africa,2019,106,generosity,0.12706,111
+Botswana,3.974,Africa,2019,122,generosity,0.12425,112
+France,6.478,Europe,2019,31,generosity,0.1216,113
+Congo (Brazzaville),4.236,Africa,2019,113,generosity,0.12077,114
+Mexico,6.778,North America,2019,20,generosity,0.11735,115
+Portugal,5.123,Europe,2019,84,generosity,0.11691,116
+Palestinian Territories,4.754,Asia,2019,95,generosity,0.11154,117
+Argentina,6.65,South America,2019,25,generosity,0.10989,118
+Japan,5.921,Asia,2019,47,generosity,0.10224,119
+Ecuador,5.976,South America,2019,46,generosity,0.10074,120
+Czech Republic,6.596,Europe,2019,26,generosity,0.09929,121
+Hungary,5.145,Europe,2019,81,generosity,0.099,122
+Yemen,3.724,Asia,2019,129,generosity,0.09821,123
+El Salvador,6.068,South America,2019,41,generosity,0.08877,124
+Estonia,5.517,Europe,2019,65,generosity,0.08423,125
+Armenia,4.36,Asia,2019,107,generosity,0.07793,126
+Algeria,6.355,Africa,2019,35,generosity,0.07044,127
+Georgia,4.252,Asia,2019,112,generosity,0.06786,128
+Gabon,4.121,Africa,2019,119,generosity,0.06244,129
+Azerbaijan,5.291,Asia,2019,72,generosity,0.0564,130
+China,5.245,Asia,2019,74,generosity,0.04959,131
+Turkey,5.389,Asia,2019,69,generosity,0.04707,132
+Venezuela,6.084,South America,2019,39,generosity,0.0425,133
+Morocco,5.151,Africa,2019,80,generosity,0.04053,134
+Tunisia,5.045,Africa,2019,86,generosity,0.03936,135
+Russia,5.856,Europe,2019,50,generosity,0.02736,136
+Lithuania,5.813,Europe,2019,54,generosity,0.02025,137
+Greece,5.033,Europe,2019,87,generosity,0,138
+Mexico,6.778,North America,2019,20,dystopia_residual,3.55906,1
+Brazil,6.952,South America,2019,16,dystopia_residual,3.50733,2
+Algeria,6.355,Africa,2019,35,dystopia_residual,3.40904,3
+Moldova,5.897,Europe,2019,49,dystopia_residual,3.38007,4
+Costa Rica,7.087,South America,2019,14,dystopia_residual,3.35168,5
+Israel,7.267,Asia,2019,11,dystopia_residual,3.31029,6
+El Salvador,6.068,South America,2019,41,dystopia_residual,3.22134,7
+Guatemala,6.324,South America,2019,36,dystopia_residual,3.19863,8
+Pakistan,5.132,Asia,2019,82,dystopia_residual,3.18286,9
+Colombia,6.481,South America,2019,30,dystopia_residual,3.17471,10
+Argentina,6.65,South America,2019,25,dystopia_residual,3.12985,11
+Sierra Leone,4.635,Africa,2019,98,dystopia_residual,3.01402,12
+Panama,6.701,South America,2019,24,dystopia_residual,3.00559,13
+Venezuela,6.084,South America,2019,39,dystopia_residual,2.97468,14
+Czech Republic,6.596,Europe,2019,26,dystopia_residual,2.96211,15
+Chile,6.705,South America,2019,23,dystopia_residual,2.95505,16
+Morocco,5.151,Africa,2019,80,dystopia_residual,2.94891,17
+Bolivia,5.822,South America,2019,53,dystopia_residual,2.91635,18
+Nigeria,4.875,Africa,2019,90,dystopia_residual,2.88586,19
+Iceland,7.501,Europe,2019,3,dystopia_residual,2.83137,20
+Malawi,4.156,Africa,2019,118,dystopia_residual,2.82859,21
+Finland,7.413,Europe,2019,5,dystopia_residual,2.82596,22
+Nicaragua,5.992,South America,2019,43,dystopia_residual,2.82428,23
+Kosovo,5.401,Europe,2019,68,dystopia_residual,2.80998,24
+Ecuador,5.976,South America,2019,46,dystopia_residual,2.77366,25
+Congo (Kinshasa),4.272,Africa,2019,111,dystopia_residual,2.74924,26
+Denmark,7.526,Europe,2019,1,dystopia_residual,2.73939,27
+Peru,5.743,South America,2019,57,dystopia_residual,2.73117,28
+United States of America,7.104,North America,2019,13,dystopia_residual,2.72782,29
+Netherlands,7.339,Europe,2019,7,dystopia_residual,2.70749,30
+Canada,7.404,North America,2019,6,dystopia_residual,2.70485,31
+Switzerland,7.509,Europe,2019,2,dystopia_residual,2.69463,32
+Austria,7.119,Europe,2019,12,dystopia_residual,2.69343,33
+Tunisia,5.045,Africa,2019,86,dystopia_residual,2.68413,34
+Uruguay,6.545,South America,2019,28,dystopia_residual,2.67139,35
+Norway,7.498,Europe,2019,4,dystopia_residual,2.66465,36
+Ethiopia,4.508,Africa,2019,101,dystopia_residual,2.65614,37
+Saudi Arabia,6.379,Asia,2019,33,dystopia_residual,2.61482,38
+Belgium,6.929,Europe,2019,17,dystopia_residual,2.61355,39
+Slovakia,6.078,Europe,2019,40,dystopia_residual,2.61065,40
+Bangladesh,4.643,Asia,2019,97,dystopia_residual,2.60904,41
+Lithuania,5.813,Europe,2019,54,dystopia_residual,2.60525,42
+Russia,5.856,Europe,2019,50,dystopia_residual,2.59115,43
+Zambia,4.795,Africa,2019,93,dystopia_residual,2.58991,44
+Thailand,6.474,Asia,2019,32,dystopia_residual,2.5796,45
+Sweden,7.291,Europe,2019,10,dystopia_residual,2.54734,46
+Australia,7.313,Australia,2019,9,dystopia_residual,2.5465,47
+Croatia,5.488,Europe,2019,67,dystopia_residual,2.52462,48
+Cameroon,4.513,Africa,2019,100,dystopia_residual,2.5198,49
+Germany,6.994,Europe,2019,15,dystopia_residual,2.50931,50
+Kazakhstan,5.919,Asia,2019,48,dystopia_residual,2.49325,51
+Bosnia and Herzegovina,5.163,Europe,2019,77,dystopia_residual,2.48406,52
+New Zealand,7.334,Australia,2019,8,dystopia_residual,2.47553,53
+France,6.478,Europe,2019,31,dystopia_residual,2.4744,54
+Romania,5.528,Europe,2019,64,dystopia_residual,2.45184,55
+Zimbabwe,4.193,Africa,2019,117,dystopia_residual,2.4427,56
+Palestinian Territories,4.754,Asia,2019,95,dystopia_residual,2.40364,57
+Spain,6.361,Europe,2019,34,dystopia_residual,2.39663,58
+Libya,5.615,Africa,2019,60,dystopia_residual,2.39374,59
+Tajikistan,4.996,Asia,2019,88,dystopia_residual,2.39106,60
+Belarus,5.802,Europe,2019,55,dystopia_residual,2.38582,61
+Haiti,4.028,South America,2019,121,dystopia_residual,2.37116,62
+Jamaica,5.51,South America,2019,66,dystopia_residual,2.35682,63
+Malaysia,6.005,Asia,2019,42,dystopia_residual,2.35384,64
+South Korea,5.835,Asia,2019,51,dystopia_residual,2.35015,65
+Italy,5.977,Europe,2019,45,dystopia_residual,2.34918,66
+Uzbekistan,5.987,Asia,2019,44,dystopia_residual,2.34638,67
+Nepal,4.793,Asia,2019,94,dystopia_residual,2.32694,68
+Chad,3.763,Africa,2019,126,dystopia_residual,2.30637,69
+Honduras,4.871,South America,2019,91,dystopia_residual,2.29551,70
+Turkey,5.389,Asia,2019,69,dystopia_residual,2.29074,71
+Kyrgyzstan,5.185,Asia,2019,75,dystopia_residual,2.28136,72
+Kuwait,6.239,Asia,2019,37,dystopia_residual,2.28085,73
+Serbia,5.177,Europe,2019,76,dystopia_residual,2.27539,74
+Bahrain,6.218,Asia,2019,38,dystopia_residual,2.27405,75
+Azerbaijan,5.291,Asia,2019,72,dystopia_residual,2.2735,76
+Montenegro,5.161,Europe,2019,78,dystopia_residual,2.25531,77
+Philippines,5.279,Asia,2019,73,dystopia_residual,2.23484,78
+Liberia,3.622,Africa,2019,132,dystopia_residual,2.23284,79
+United Arab Emirates,6.573,Asia,2019,27,dystopia_residual,2.21507,80
+Turkmenistan,5.658,Asia,2019,58,dystopia_residual,2.21489,81
+Latvia,5.56,Europe,2019,61,dystopia_residual,2.20859,82
+Mauritius,5.648,Africa,2019,59,dystopia_residual,2.20223,83
+Jordan,5.303,Asia,2019,71,dystopia_residual,2.20142,84
+Poland,5.835,Europe,2019,52,dystopia_residual,2.20035,85
+Ghana,4.276,Africa,2019,110,dystopia_residual,2.2002,86
+India,4.404,Asia,2019,104,dystopia_residual,2.18032,87
+China,5.245,Asia,2019,74,dystopia_residual,2.17087,88
+Paraguay,5.538,South America,2019,63,dystopia_residual,2.16091,89
+Ireland,6.907,Europe,2019,18,dystopia_residual,2.15988,90
+Guinea,3.607,South America,2019,133,dystopia_residual,2.15604,91
+Madagascar,3.695,Africa,2019,130,dystopia_residual,2.15075,92
+United Kingdom,6.725,Europe,2019,22,dystopia_residual,2.14999,93
+Afghanistan,3.36,Asia,2019,136,dystopia_residual,2.14558,94
+Togo,3.303,Africa,2019,137,dystopia_residual,2.1354,95
+Greece,5.033,Europe,2019,87,dystopia_residual,2.12944,96
+Mali,4.073,Africa,2019,120,dystopia_residual,2.11087,97
+Luxembourg,6.871,Europe,2019,19,dystopia_residual,2.11055,98
+Benin,3.484,Africa,2019,135,dystopia_residual,2.10812,99
+Congo (Brazzaville),4.236,Africa,2019,113,dystopia_residual,2.10681,100
+Burundi,2.905,Africa,2019,138,dystopia_residual,2.10404,101
+Niger,3.856,Africa,2019,125,dystopia_residual,2.09469,102
+Lebanon,5.129,Asia,2019,83,dystopia_residual,2.07339,103
+Cyprus,5.546,Asia,2019,62,dystopia_residual,2.04497,104
+Indonesia,5.314,Asia,2019,70,dystopia_residual,2.03171,105
+Iran,4.813,Asia,2019,92,dystopia_residual,1.99817,106
+Singapore,6.739,Asia,2019,21,dystopia_residual,1.99375,107
+Malta,6.488,Europe,2019,29,dystopia_residual,1.99032,108
+Armenia,4.36,Asia,2019,107,dystopia_residual,1.97864,109
+Senegal,4.219,Africa,2019,114,dystopia_residual,1.97861,110
+Ivory Coast,3.916,Africa,2019,123,dystopia_residual,1.97478,111
+Yemen,3.724,Asia,2019,129,dystopia_residual,1.97295,112
+Egypt,4.362,Africa,2019,106,dystopia_residual,1.96895,113
+Hungary,5.145,Europe,2019,81,dystopia_residual,1.95473,114
+Vietnam,5.061,Asia,2019,85,dystopia_residual,1.9418,115
+Albania,4.655,Europe,2019,96,dystopia_residual,1.92816,116
+Mauritania,4.201,Africa,2019,116,dystopia_residual,1.9263,117
+Kenya,4.356,Africa,2019,108,dystopia_residual,1.88326,118
+Burkina Faso,3.739,Africa,2019,127,dystopia_residual,1.87319,119
+Georgia,4.252,Asia,2019,112,dystopia_residual,1.87031,120
+Estonia,5.517,Europe,2019,65,dystopia_residual,1.81985,121
+Iraq,4.575,Asia,2019,99,dystopia_residual,1.81657,122
+Japan,5.921,Asia,2019,47,dystopia_residual,1.80584,123
+Slovenia,5.768,Europe,2019,56,dystopia_residual,1.79522,124
+Dominican Republic,5.155,South America,2019,79,dystopia_residual,1.69626,125
+South Africa,4.459,Africa,2019,102,dystopia_residual,1.64227,126
+Mongolia,4.907,Asia,2019,89,dystopia_residual,1.53586,127
+Portugal,5.123,Europe,2019,84,dystopia_residual,1.53015,128
+Uganda,3.739,Africa,2019,128,dystopia_residual,1.51416,129
+Myanmar,4.395,Asia,2019,105,dystopia_residual,1.50655,130
+Ukraine,4.324,Europe,2019,109,dystopia_residual,1.50066,131
+Gabon,4.121,Africa,2019,119,dystopia_residual,1.45332,132
+Tanzania,3.666,Africa,2019,131,dystopia_residual,1.37769,133
+Cambodia,3.907,Asia,2019,124,dystopia_residual,1.31573,134
+Bulgaria,4.217,Europe,2019,115,dystopia_residual,1.15377,135
+Rwanda,3.515,Africa,2019,134,dystopia_residual,0.96819,136
+Botswana,3.974,Africa,2019,122,dystopia_residual,0.96741,137
+Sri Lanka,4.415,Asia,2019,103,dystopia_residual,0.91681,138

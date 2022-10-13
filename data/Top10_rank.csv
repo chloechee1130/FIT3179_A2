@@ -69,3 +69,73 @@ Norway,7.498,Europe,2019,4,Residual,2.66465,7
 Sweden,7.291,Europe,2019,10,Residual,2.54734,8
 Australia,7.313,Australia,2019,9,Residual,2.5465,9
 New Zealand,7.334,Australia,2019,8,Residual,2.47553,10
+Denmark,7.64559984,Europe,2020,2,Generosity,0.49526033,1
+Finland,7.80870009,Europe,2020,1,Generosity,0.47785726,2
+New Zealand,7.29960012,Australia,2020,8,Generosity,0.46126828,3
+Sweden,7.35349989,Europe,2020,7,Generosity,0.44206637,4
+Norway,7.48799992,Europe,2020,5,Generosity,0.43410057,5
+Switzerland,7.55989981,Europe,2020,3,Generosity,0.4079459,6
+Netherlands,7.44890022,Europe,2020,6,Generosity,0.36856976,7
+Luxembourg,7.23750019,Europe,2020,10,Generosity,0.36704147,8
+Austria,7.29419994,Europe,2020,9,Generosity,0.28125614,9
+Iceland,7.50449991,Europe,2020,4,Generosity,0.14454077,10
+Luxembourg,7.237500191,Europe,2020,10,Economy,1.536676049,1
+Norway,7.487999916,Europe,2020,5,Economy,1.42420733,2
+Switzerland,7.559899807,Europe,2020,3,Economy,1.39077425,3
+Netherlands,7.448900223,Europe,2020,6,Economy,1.338946342,4
+Denmark,7.645599842,Europe,2020,2,Economy,1.326948524,5
+Iceland,7.504499912,Europe,2020,4,Economy,1.326501608,6
+Sweden,7.353499889,Europe,2020,7,Economy,1.322235227,7
+Austria,7.294199944,Europe,2020,9,Economy,1.317285538,8
+Finland,7.808700085,Europe,2020,1,Economy,1.285189509,9
+New Zealand,7.299600124,Australia,2020,8,Economy,1.242317915,10
+Iceland,7.504499912,Europe,2020,4,Family,1.547567487,1
+Denmark,7.645599842,Europe,2020,2,Family,1.503449202,2
+Finland,7.808700085,Europe,2020,1,Family,1.499525905,3
+Norway,7.487999916,Europe,2020,5,Family,1.495172501,4
+New Zealand,7.299600124,Australia,2020,8,Family,1.48721838,5
+Switzerland,7.559899807,Europe,2020,3,Family,1.472403407,6
+Netherlands,7.448900223,Europe,2020,6,Family,1.463645935,7
+Austria,7.294199944,Europe,2020,9,Family,1.437444925,8
+Sweden,7.353499889,Europe,2020,7,Family,1.433347702,9
+Luxembourg,7.237500191,Europe,2020,10,Family,1.387528419,10
+Switzerland,7.55989981,Europe,2020,3,Health,1.04053319,1
+New Zealand,7.29960012,Australia,2020,8,Health,1.0081383,2
+Norway,7.48799992,Europe,2020,5,Health,1.0080719,3
+Austria,7.29419994,Europe,2020,9,Health,1.00093353,4
+Iceland,7.50449991,Europe,2020,4,Health,1.00084341,5
+Sweden,7.35349989,Europe,2020,7,Health,0.98647046,6
+Luxembourg,7.23750019,Europe,2020,10,Health,0.98644269,7
+Denmark,7.64559984,Europe,2020,2,Health,0.97933257,8
+Netherlands,7.44890022,Europe,2020,6,Health,0.97567534,9
+Finland,7.80870009,Europe,2020,1,Health,0.96127141,10
+Norway,7.487999916,Europe,2020,5,Freedom,0.670200884,1
+Denmark,7.645599842,Europe,2020,2,Freedom,0.665039897,2
+Finland,7.808700085,Europe,2020,1,Freedom,0.66231674,3
+Iceland,7.504499912,Europe,2020,4,Freedom,0.661980748,4
+Sweden,7.353499889,Europe,2020,7,Freedom,0.650297701,5
+New Zealand,7.299600124,Australia,2020,8,Freedom,0.646789908,6
+Switzerland,7.559899807,Europe,2020,3,Freedom,0.62895447,7
+Netherlands,7.448900223,Europe,2020,6,Freedom,0.61362648,8
+Luxembourg,7.237500191,Europe,2020,10,Freedom,0.610137045,9
+Austria,7.294199944,Europe,2020,9,Freedom,0.603368878,10
+Iceland,7.504499912,Europe,2020,4,Trust,0.362330228,1
+Netherlands,7.448900223,Europe,2020,6,Trust,0.336317569,2
+New Zealand,7.299600124,Australia,2020,8,Trust,0.325726211,3
+Norway,7.487999916,Europe,2020,5,Trust,0.287985086,4
+Sweden,7.353499889,Europe,2020,7,Trust,0.272827893,5
+Switzerland,7.559899807,Europe,2020,3,Trust,0.269055754,6
+Austria,7.294199944,Europe,2020,9,Trust,0.255509764,7
+Denmark,7.645599842,Europe,2020,2,Trust,0.242793396,8
+Luxembourg,7.237500191,Europe,2020,10,Trust,0.19595392,9
+Finland,7.808700085,Europe,2020,1,Trust,0.159670442,10
+Finland,7.808700085,Europe,2020,1,Residual,2.762835026,1
+Iceland,7.504499912,Europe,2020,4,Residual,2.460688114,2
+Denmark,7.645599842,Europe,2020,2,Residual,2.432740688,3
+Austria,7.294199944,Europe,2020,9,Residual,2.398446083,4
+Netherlands,7.448900223,Europe,2020,6,Residual,2.352117062,5
+Switzerland,7.559899807,Europe,2020,3,Residual,2.35026741,6
+Sweden,7.353499889,Europe,2020,7,Residual,2.246299267,7
+Norway,7.487999916,Europe,2020,5,Residual,2.168266296,8
+Luxembourg,7.237500191,Europe,2020,10,Residual,2.153700352,9
+New Zealand,7.299600124,Australia,2020,8,Residual,2.128108025,10

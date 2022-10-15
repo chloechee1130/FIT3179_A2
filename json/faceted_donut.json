@@ -108,7 +108,29 @@
                             "title":"Factor",
                             "labelFontSize": 12,
                             "titleFontSize": 14 
+                        },
+                        "scale": {
+                            "domain": [
+                                "Economy",
+                                "Family",
+                                "Freedom",
+                                "Generosity",
+                                "Health",
+                                "Residual",
+                                "Trust"
+                            ],
+                            "range": [
+                                "#4EBA74",
+                                "#72A1C3",
+                                "#fab291",
+                                "#8AD9C2",
+                                "#AB99B5",
+                                "#EF7284",
+                                "#F2BA3B"
+                                
+                            ]
                         }
+                        
                     },
                     "tooltip": [
                         {

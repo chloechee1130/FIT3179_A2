@@ -36,6 +36,9 @@
                 "labelFont": "Helvetica Neue, Arial",
                 "labelFontSize": 12,
                 "titleFontSize": 14
+            },
+            "line": {
+                "strokeWidth":1
             }
         }
     },
@@ -83,7 +86,7 @@
                     "field": "country",
                     "type": "nominal"
                 },
-                "color": {"value": "#db646f"}
+                "color": {"value": "#80daeb"}
             }
         },
         {
@@ -97,7 +100,7 @@
                     "type": "ordinal",
                     "scale":{
                         "domain": [2019, 2020],
-                        "range": ["#e6959c", "#911a24"]
+                        "range": ["#008b8b", "#30d5c8"]
                     },
                     "title": "Year"
                 },

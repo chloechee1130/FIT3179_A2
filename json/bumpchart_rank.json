@@ -42,6 +42,21 @@
             "size": 100
         }
     },
+    "params": [
+        {
+          "name": "Year_selection",
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              2019, 
+              2020
+            ],
+            "labels": ["Show All", "2019"],
+            "name": "Year Selection: "
+          }
+        }
+    ],
     "layer": [
         {
             "params": [
@@ -50,6 +65,10 @@
                     "select": {"type": "point", "fields": ["country"]},
                     "bind": "legend"
                 }
+            ],
+            "transform": [
+                {"filter": "datum.happiness_score > 0"},
+                {"filter": "Year_selection == null || datum.year == Year_selection"}
             ],
             "mark":{
                 "type": "line",
@@ -75,7 +94,38 @@
                 "color": {
                     "field": "country",
                     "type": "nominal",
-                    "title": "Top 10 Country"
+                    "title": "Top 10 Country",
+                    "scale": {
+                        "domain": [
+                            "Australia",
+                            "Austria",
+                            "Canada",
+                            "Denmark",
+                            "Finland",
+                            "Iceland",
+                            "Luxembourg",
+                            "Netherlands",
+                            "New Zealand",
+                            "Norway",
+                            "Sweden",
+                            "Switzerland"
+                        ],
+                        "range": [
+                            "#36B067",
+                            "#F19900",
+                            "#C75E0C",
+                            "#EB6672",
+                            "#6296BC",
+                            "#dda0dd",
+                            "#fab291",
+                            "#989685",
+                            "#024f3c",
+                            "#0020c2",
+                            "#E31C79",
+                            "#7F00FF"
+                        ]
+                    }
+                    
                 },
                 "opacity": {
                     "condition": {"param": "country_highlight", "value": 0.8},

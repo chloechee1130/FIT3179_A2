@@ -1,19 +1,20 @@
 #headline {
   font-family: "Sora", sans-serif;
   font-size: 4em;
+  color: #ffffff;
 }.container {
-  	border: 2px solid;
-  	box-shadow: 5px 10px #919191;
+      border: 2px solid;
+      box-shadow: 5px 10px #bab9b9;
 }
 
 /* #worldmap {
-	top:100px;
-	bottom: 100px;
-	left: 100px;
-	right: 100px;
-	height: 600px;
-	width: 800px;
-	min-height: 100px;
+    top:100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    height: 600px;
+    width: 800px;
+    min-height: 100px;
 } */
 
 .bgwhite {
@@ -21,24 +22,75 @@
 }
 
 .bg1 {
-  background-color: rgb(169, 211, 252);
+  /* background-color: rgb(242, 242, 242); */
+  /* background-color: rgb(169, 184, 245); */
+  /* background-color: rgb(169, 211, 252); */
+  background-color: #008b8b;
 }
 
 .bg2 {
-  background-color: rgb(255, 190, 255);
+  /* background-color: rgb(253, 179, 59); */
+  background-color: #ffffff;
+
+
 }
 
 .bg3 {
-	background-color: rgb(193, 247, 227);
+    background-color: rgb(245,245,245);
 }
 
+
+#gdp_sp {
+  display: flex;
+}
+#fam_sp {
+  display: flex;
+}
+#free_sp {
+  display: flex;
+}
+#health_sp {
+  display: flex;
+}
+#trust_sp {
+  display: flex;
+}
+#gen_sp {
+  display: flex;
+}
+#cor_sp {
+  display: flex;
+}
+#map_2019 {
+  display: flex;
+}
+#map_2020 {
+  display: flex;
+}
+
+.factor-icon {
+  width: 120px;
+  filter: grayscale(100%);
+}
+
+.factor-icon:hover {
+  filter: grayscale(0%);
+  filter: brightness(110%);
+}
+.sp {
+  display: none;
+}
+.map{
+  display: none;
+}
 
 
 body {
-  font-size: medium;
+  font-size: large;
   font-family: 'Inter', sans-serif !important;
   background-color: #ffffff;
 }
+
 .vega-bind-name {
   padding: 5px;
 }

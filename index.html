@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Bootstrap -->
   <link
@@ -17,9 +17,11 @@
   <!-- CSS file -->
   <!-- <link rel="stylesheet" type="text/css" href="css/styles.css" media="all"> -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- jquery -->
+  <script src="json/jquery-3.6.0.min.js"></script>
 
 </head>
-<body style="background-color: #dfe1f0e2;">
+<body style="background-color: rgb(228, 228, 228);">
   <!-- Header (Title) -->
   <div class="section p-3">
     <div class="container">
@@ -33,37 +35,190 @@
     </div>
   </div>
 
-  <!-- Choropleth Map Section -->
+  <!-- SCATTER SWITCH  -->
+  <div class="section p-3">
+    <div class="container">
+      <div class="row bg2 d-flex justify-content-center p-4">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="h2 fw-bold">Happiness Score vs Factors</div>
+        </div>
+      </div>
+      <!---------- ICON SECTION  ----------->
+      <div class="row bg2 p-1">
+        <!-- GDP icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/economy.png"
+            alt="GDP icon unavailable"
+            class="factor-icon"
+            id="gdp_icon"
+            onclick="toggleSP('gdp_sp', 'gdp_icon')"
+          />
+        </div>
+        <!-- FAM icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/family.png"
+            alt="Family icon unavailable"
+            class="factor-icon"
+            id="fam_icon"
+            onclick="toggleSP('fam_sp', 'fam_icon')"
+          />
+        </div>
+
+        <!-- FREE icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/freedom.png"
+            alt="Freedom icon unavailable"
+            class="factor-icon"
+            id="free_icon"
+            onclick="toggleSP('free_sp', 'free_icon')"
+          />
+        </div>
+
+        <!-- COR icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/corruption.png"
+            alt="Corruption icon unavailable"
+            class="factor-icon"
+            id="cor_icon"
+            onclick="toggleSP('cor_sp', 'cor_icon')"
+          />
+        </div>
+
+        <!-- GEN icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/generosity.png"
+            alt="Generosity icon unavailable"
+            class="factor-icon"
+            id="gen_icon"
+            onclick="toggleSP('gen_sp', 'gen_icon')"
+          />
+        </div>
+
+        <!-- Health icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/health.png"
+            alt="Health icon unavailable"
+            class="factor-icon"
+            id="health_icon"
+            onclick="toggleSP('health_sp', 'health_icon')"
+          />
+        </div>
+      </div>
+
+      <!---------- GRAPH SECTION  ----------->  
+      <!-- GDP -->
+      <div class="row bg2 p-3 sp" id="gdp_sp">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="scatterplot_economy" class="w-100"></div>
+        </div>
+      </div>
+      
+      <!-- FAM -->
+      <div class="row bg2 p-3 sp" id="fam_sp">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="scatterplot_family" class="w-100"></div>
+        </div>
+      </div>
+
+      <!-- FREE -->
+      <div class="row bg2 p-3 sp" id="free_sp">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="scatterplot_freedom" class="w-100"></div>
+        </div>
+      </div>
+      
+      <!-- COR -->
+      <div class="row bg2 p-3 sp" id="cor_sp">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="scatterplot_trust" class="w-100"></div>
+        </div>
+      </div>
+
+      <!-- GEN -->
+      <div class="row bg2 p-3 sp" id="gen_sp">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="scatterplot_generosity" class="w-100"></div>
+        </div>
+      </div>
+
+      <!-- HEALTH -->
+      <div class="row bg2 p-3 sp" id="health_sp">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="scatterplot_health" class="w-100"></div>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+  <!-- MAP SWITCH  -->
+  <div class="section p-3">
+    <div class="container">
+      <div class="row bg2 d-flex justify-content-center p-4">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="h2 fw-bold">World Happiness Score</div>
+        </div>
+      </div>
+      <!---------- ICON SECTION  ----------->
+      <div class="row bg2 p-1">
+        <!-- 2019 icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/2019.png"
+            alt="2019 icon unavailable"
+            class="factor-icon"
+            id="map_2019_icon"
+            onclick="toggleMap('map_2019', 'map_2019_icon')"
+          />
+        </div>
+        <!-- 2020 icon  -->
+        <div class="col-2 d-flex justify-content-center">
+          <img
+            src="res/2020.png"
+            alt="2020 icon unavailable"
+            class="factor-icon"
+            id="map_2020_icon"
+            onclick="toggleMap('map_2020', 'map_2020_icon')"
+          />
+        </div>
+
+      </div>
+
+      <!---------- GRAPH SECTION  ----------->  
+      <!-- 2019 -->
+      <div class="row bg2 p-3 map" id="map_2019">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="worldmap_2019" class="w-100"></div>
+        </div>
+      </div>
+      
+      <!-- FAM -->
+      <div class="row bg2 p-3 map" id="map_2020">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <div id="worldmap_2020" class="w-100"></div>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <!-- Bar chart section (Top 10 saddest and happiest countries) -->
   <div class="section p-3">
     <div class="container">
       <div class="row bg2">
         <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
-          <div class="h2 fw-bold">World Happiness Score in 2020</div>
-        </div>
-        <div class="span p-4">
-          The following choropleth map shows how happy different countires are in
-          <b>2020</b>. In general, developed countries that are mostly found
-          in <span class="fw-bold">Europe</span> or
-          <span class="fw-bold">North America</span> are the <span class="fw-bold" style="color: #792600;">happiest</span>. On
-          the other hand, under-developed countries in <span class="fw-bold">South Asia</span> and
-          <span class="fw-bold">Sub-Saharan Africa</span> are the <span class="fw-bold" style="color: #fd8d3c;">saddest</span>.
-        </div>
-        <div class="col-12 d-flex justify-content-center">
-          <div id="worldmap" class="p-3 w-100"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bar chart section (Top 10 saddest and happiest countries) -->
-  <div class="section p-3">
-    <div class="container">
-      <div class="row bg1">
-        <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
           <div class="h2 fw-bold">Top 10 Happiest and Saddest Countries</div>
         </div>
         <div class="span p-4">
-          <span class="fw-bold">DESCRIPTION</span> 
+          <span class="fw-bold">DESCRIPTION *legend interactive*</span> 
         </div>
         <div class="col-12 d-flex justify-content-center">
           <div id="barchart" class="w-100 p-3"></div>
@@ -80,27 +235,10 @@
           <div class="h2 fw-bold">Factor Rank for Top 10 Happiest Countries in 2019</div>
         </div>
         <div class="span p-4">
-          <span class="fw-bold">DESCRIPTION</span> 
+          <span class="fw-bold">DESCRIPTION *legend interactive*</span> 
         </div>
         <div class="col-12 d-flex justify-content-center">
           <div id="bumpchart_rank" class="w-100 p-3"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Scatterplot selection (interactive) -->
-  <div class="section p-3">
-    <div class="container">
-      <div class="row bg1">
-        <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
-          <div class="h2 fw-bold">Happiness Score vs GDP per Capita</div>
-        </div>
-        <div class="span p-4">
-          <span class="fw-bold">DESCRIPTION</span> 
-        </div>
-        <div class="col-12 d-flex justify-content-center">
-            <div id="scatterplot" class="p-3 w-100"></div>
         </div>
       </div>
     </div>
@@ -126,7 +264,7 @@
   <!-- Connected Dot Plot Section -->
   <div class="section p-3">
     <div class="container">
-      <div class="row bg1">
+      <div class="row bg2">
         <div class="col-12 mt-3 mx-3 d-flex justify-content-center">
           <div class="h2 fw-bold">Changes in Happiness Rank 2019 - 2020</div>
         </div>
@@ -154,7 +292,7 @@
           <span class="fw-bold">DESCRIPTION</span> 
         </div>
         <div class="col-12 d-flex justify-content-center">
-            <div id="donut" class="p-3 w-100"></div>
+            <div id="faceted_donut" class="p-3 w-100"></div>
         </div>
       </div>
     </div>
@@ -169,20 +307,73 @@
   </footer>
 
   <script type="text/javascript">
-    var worldmap = "json/WH_map.json";
-    vegaEmbed("#worldmap", worldmap)
+    var worldmap_2020 = "json/WH_map_2020.json";
+    vegaEmbed("#worldmap_2020", worldmap_2020)
+        .then(function (result) {
+          document.getElementById('worldmap_2020').closest('.map').style.display = 'none';
+
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+    
+    var worldmap_2019 = "json/WH_map_2019.json";
+    vegaEmbed("#worldmap_2019", worldmap_2019)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
 
-    var scatterplot = "json/scatterplot.json";
-    vegaEmbed("#scatterplot", scatterplot)
+    var scatterplot_economy = "json/scatterplot_economy.json";
+    vegaEmbed("#scatterplot_economy", scatterplot_economy)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
+        
+
+    var scatterplot_family = "json/scatterplot_family.json";
+    vegaEmbed("#scatterplot_family", scatterplot_family)
+        .then(function (result) {
+          document.getElementById('scatterplot_family').closest('.sp').style.display = 'none';
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
     
+    var scatterplot_health = "json/scatterplot_health.json";
+    vegaEmbed("#scatterplot_health", scatterplot_health)
+        .then(function (result) {
+          document.getElementById('scatterplot_health').closest('.sp').style.display = 'none';
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+    var scatterplot_freedom = "json/scatterplot_freedom.json";
+    vegaEmbed("#scatterplot_freedom", scatterplot_freedom)
+        .then(function (result) {
+          document.getElementById('scatterplot_freedom').closest('.sp').style.display = 'none';
+
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+    
+    var scatterplot_trust = "json/scatterplot_trust.json";
+    vegaEmbed("#scatterplot_trust", scatterplot_trust)
+        .then(function (result) {
+          document.getElementById('scatterplot_trust').closest('.sp').style.display = 'none';
+
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+        
+    var scatterplot_generosity = "json/scatterplot_generosity.json";
+    vegaEmbed("#scatterplot_generosity", scatterplot_generosity)
+        .then(function (result) {
+          document.getElementById('scatterplot_generosity').closest('.sp').style.display = 'none';
+
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
     var boxplot = "json/boxplot.json";
     vegaEmbed("#boxplot", boxplot)
         .then(function (result) {
@@ -211,15 +402,80 @@
         })
         .catch(console.error);
     
-    var donut = "json/donut.json";
-    vegaEmbed("#donut", donut)
+    var faceted_donut = "json/faceted_donut.json";
+    vegaEmbed("#faceted_donut", faceted_donut)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
   </script>
 
+  <script type="text/javascript">
+    
+    function toggleSP(spId, icon) {
+      var targetSP = document.getElementById(spId);
+      var hideSP = document.getElementsByClassName('sp');
+      // Hide other vis2 first
+      for (i=0; i < hideSP.length; i++) {
+            console.log(hideSP[i]);
+            if (hideSP[i] != targetSP) {
+                  hideSP[i].style.display = 'none';
+            }
+            else {
+                  targetSP.style.display = 'flex';
+            }
+
+      }
+
+      var targetIcon = document.getElementById(icon);
+      var darkIcons = document.getElementsByClassName('factor-icon');
+      // Hide other vis2 first
+      for (i=0; i < darkIcons.length; i++) {
+            if (darkIcons[i] != targetIcon) {
+                  darkIcons[i].style.filter = 'grayscale(100%)';
+            }
+            else {
+                  targetIcon.style.filter =  'grayscale(0%)';
+                  targetIcon.style.filter =  'brightness(110%)';
+            }
+      }
+    }
+
+    function toggleMap(mapId, icon) {
+      var targetmap = document.getElementById(mapId);
+      var hidemap = document.getElementsByClassName('map');
+      // Hide other vis2 first
+      for (i=0; i < hidemap.length; i++) {
+            console.log(hidemap[i]);
+            if (hidemap[i] != targetmap) {
+              hidemap[i].style.display = 'none';
+            }
+            else {
+              targetmap.style.display = 'flex';
+            }
+
+      }
+
+      var targetIcon = document.getElementById(icon);
+      var darkIcons = document.getElementsByClassName('factor-icon');
+      // Hide other vis2 first
+      for (i=0; i < darkIcons.length; i++) {
+            if (darkIcons[i] != targetIcon) {
+                  darkIcons[i].style.filter = 'grayscale(100%)';
+            }
+            else {
+                  targetIcon.style.filter =  'grayscale(0%)';
+                  targetIcon.style.filter =  'brightness(110%)';
+            }
+      }
+    }
+    $(document).ready(function() {
+          $('.flourish-credit').remove();
+          
+    });
 
 
+  </script>
+  
   </body>
 </html>

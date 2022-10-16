@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": 450,
+  
     "projection": {"type": "equalEarth"},
     "data": {
       "url": "https://raw.githubusercontent.com/chloechee1130/FIT3179_Homework4-W10/main/json/ne_110m.json",
@@ -63,7 +64,7 @@
       "layer": [
         {
           "data": {"sphere": true},
-          "mark": {"type": "geoshape", "fill": "#baddff"}
+          "mark": {"type": "geoshape", "fill": "#e7feff"}
         },
         {
           "data": {
@@ -99,7 +100,7 @@
                   "url": "https://raw.githubusercontent.com/chloechee1130/FIT3179_A2/main/data/WH_2019.csv"
                 },
                 "key": "country",
-                "fields": ["happiness_score", "continent"]
+                "fields": ["happiness_score", "continent", "year"]
               }
             },
             {"calculate": "datum.happiness_score", "as": "Happiness Score"},

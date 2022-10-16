@@ -192,7 +192,7 @@
                     "field": "text_annotation"
                 },
                 "color": {
-                    "value": "#ff69B4"
+                    "value": "#AB99B5"
                 }
             }
         },
@@ -239,6 +239,28 @@
                     },
                     "value": 0.4
                 }
+            }
+        },
+        {
+            "mark": {
+              "type": "line",
+              "color": "firebrick"
+            },
+            "transform": [
+              {
+                "regression": "health",
+                "on": "happiness_score"
+              }
+            ],
+            "encoding": {
+              "y": {
+                "field": "health",
+                "type": "quantitative"
+              },
+              "x": {
+                "field": "happiness_score",
+                "type": "quantitative"
+              }
             }
         }
     ]

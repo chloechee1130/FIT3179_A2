@@ -42,14 +42,14 @@
     "params": [
         {
           "name": "Year_selection",
+          "value": 2019,
           "bind": {
             "input": "select",
             "options": [
-              null,
               2019, 
               2020
             ],
-            "labels": ["Show All", "2019"],
+            "labels": ["2019"],
             "name": "Year Selection: "
           }
         }
@@ -216,7 +216,7 @@
             },
             "encoding": {
               "text": {"field": "text_annotation"},
-              "color": {"value": "#BED060"}
+              "color": {"value": "#6296BC"}
             }
         },
         {

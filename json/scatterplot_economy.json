@@ -42,14 +42,14 @@
     "params": [
       {
         "name": "Year_selection",
+        "value": 2019,
         "bind": {
             "input": "select",
             "options": [
-                null,
                 2019, 
                 2020
             ],
-            "labels": ["Show All", "2019"],
+            "labels": ["2019"],
             "name": "Year Selection: "
         }
       }
@@ -91,7 +91,7 @@
                 "y": {
                     "field": "gdp_per_capita",
                     "type": "quantitative",
-                    "title": "GDP per Capita",
+                    "title": "Economy (GDP per Capita)",
                     "scale": {"domain": [0, 1.8]}
                 },
                 "color": {
@@ -155,7 +155,7 @@
                     {
                         "field": "gdp_per_capita",
                         "type": "quantitative",
-                        "title": "GDP per Capita",
+                        "title": "Economy (GDP per Capita)",
                         "format": ".2f"
                     },
                     {
@@ -192,7 +192,7 @@
                     "field": "text_annotation"
                 },
                 "color": {
-                    "value": "#ff7f00"
+                    "value": "#4EBA74"
                 }
             }
         },
@@ -239,6 +239,29 @@
                     },
                     "value": 0.4
                 }
+            }
+        },
+        {
+            "mark": {
+              "type": "line",
+              "color": "firebrick"
+            },
+            "transform": [
+                {"filter": "Year_selection == null || datum.year == Year_selection"},
+                {
+                    "regression": "gdp_per_capita",
+                    "on": "happiness_score"
+                }
+            ],
+            "encoding": {
+              "y": {
+                "field": "gdp_per_capita",
+                "type": "quantitative"
+              },
+              "x": {
+                "field": "happiness_score",
+                "type": "quantitative"
+              }
             }
         }
     ]

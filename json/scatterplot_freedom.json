@@ -40,19 +40,19 @@
         }
     },
     "params": [
-      {
-        "name": "Year_selection",
-        "bind": {
-            "input": "select",
-            "options": [
-                null,
-                2019, 
-                2020
-            ],
-            "labels": ["Show All", "2019"],
-            "name": "Year Selection: "
-        }
-      }
+        {
+            "name": "Year_selection",
+            "value": 2019,
+            "bind": {
+                "input": "select",
+                "options": [
+                    2019, 
+                    2020
+                ],
+                "labels": ["2019"],
+                "name": "Year Selection: "
+            }
+          }
     ],
     "layer":[
         {
@@ -192,7 +192,7 @@
                     "field": "text_annotation"
                 },
                 "color": {
-                    "value": "#377eb8"
+                    "value": "#fab291"
                 }
             }
         },
@@ -239,6 +239,29 @@
                     },
                     "value": 0.4
                 }
+            }
+        },
+        {
+            "mark": {
+              "type": "line",
+              "color": "firebrick"
+            },
+            "transform": [
+                {"filter": "Year_selection == null || datum.year == Year_selection"},
+                {
+                    "regression": "freedom",
+                    "on": "happiness_score"
+                }
+            ],
+            "encoding": {
+              "y": {
+                "field": "freedom",
+                "type": "quantitative"
+              },
+              "x": {
+                "field": "happiness_score",
+                "type": "quantitative"
+              }
             }
         }
     ]

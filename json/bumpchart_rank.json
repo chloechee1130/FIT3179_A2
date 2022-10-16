@@ -45,14 +45,14 @@
     "params": [
         {
           "name": "Year_selection",
+          "value": 2019,
           "bind": {
             "input": "select",
             "options": [
-              null,
               2019, 
               2020
             ],
-            "labels": ["Show All", "2019"],
+            "labels": ["2019"],
             "name": "Year Selection: "
           }
         }
@@ -94,7 +94,7 @@
                 "color": {
                     "field": "country",
                     "type": "nominal",
-                    "title": "Top 10 Country",
+                    "title": "Country",
                     "scale": {
                         "domain": [
                             "Australia",
@@ -143,6 +143,12 @@
                         "title": "Continent"
                     },
                     {
+                        "field": "happiness_score",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Happiness Score"
+                    },
+                    {
                         "field": "field", 
                         "type": "nominal",
                         "title": "Factor"
@@ -157,6 +163,11 @@
                         "type": "quantitative",
                         "format": ".2f",
                         "title": "Factor Value"
+                    },
+                    {
+                        "field": "year",
+                        "type": "quantitative",
+                        "title": "Year"
                     }
                 ]
             }

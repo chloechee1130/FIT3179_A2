@@ -1,0 +1,151 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 450,
+    "data": {
+        "url": "https://raw.githubusercontent.com/chloechee1130/FIT3179_A2/main/data/Top10_rank.csv"
+    },
+    "config": {
+        "font": "Helvetica Neue, Arial",
+        "axis": {
+            "labelFont": "Helvetica Neue, Arial",
+            "titleFont": "Helvetica Neue, Arial",
+            "labelColor": "black",
+            "titleColor": "black",
+            "gridColor": "lighter",
+            "labelFontSize":12,
+            "labelLimit":500,
+            "titleFontSize": 14
+        },
+        "lineBreak": "linebreak",
+        "title":{
+            "fontSize":20,
+            "font": "Helvetica Neue, Arial"
+        },
+        "style": {
+            "guide-title": {
+                "font": "Helvetica Neue, Arial",
+                "fontSize":14
+            },
+            "text": {
+                "font": "Helvetica Neue, Arial",
+                "fontSize": 19,
+                "fontStyle": "Italic"
+            },
+            "legend":{
+                "labelFont": "Helvetica Neue, Arial",
+                "labelFontSize": 12,
+                "titleFontSize": 14
+            }
+        }
+    },
+    "params": [
+        {
+          "name": "Country_selection",
+          "value": "Denmark",
+          "bind": {
+            "input": "select",
+            "options": [
+                "Denmark",
+                "Switzerland",
+                "Iceland",
+                "Norway",
+                "Finland",
+                "Canada",
+                "Netherlands",
+                "New Zealand",
+                "Australia",
+                "Sweden",
+                "Austria",
+                "Luxembourg"
+            ],
+            "name": "Country Selection: "
+          }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "Country_selection == null || datum.country == Country_selection"
+        },
+        {
+            "filter": "datum.year == 2019"
+        }
+    ],
+    "encoding": {
+        "theta":{
+            "field": "field_value", 
+            "type": "quantitative",
+            "stack":true
+        },
+        "color":{
+            "field": "field",
+            "type":"nominal",
+            "title": "Factor",
+            "legend": null
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "arc",
+                "outerRadius": 160,
+                "innerRadius": 110
+            },
+            "encoding": {
+                "tooltip": [
+                    {
+                        "field": "country", 
+                        "type": "nominal",
+                        "title": "Country"
+                    },
+                    {
+                        "field": "continent", 
+                        "type": "nominal",
+                        "title": "Continent"
+                    },
+                    {
+                        "field": "field", 
+                        "type": "nominal",
+                        "title": "Factor"
+                    },
+                    {
+                        "field": "field_value",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Factor Value"
+                    }
+                ]
+            }
+        },
+        {   
+            "transform": [
+                { "calculate": "format(datum.field_value/datum.happiness_score*100, ',.1f')", "as": "percentage"},
+                {
+                    "calculate": "datum.field + 'linebreak' + datum.percentage + ' %'",
+                    "as": "text_annotation"
+                }
+            ],
+            "mark": {"type": "text", "radius": 197},
+            "encoding": {"text": {"field": "text_annotation", "type": "nominal"}}
+        },
+        {
+            "transform": [
+                { "calculate": "format(datum.happiness_score,',.2f')", "as": "HS"},
+                {
+                    "calculate": "datum.country + 'linebreak Happiness Rank: ' + datum.rank + 'linebreak Happiness Score: ' + datum.HS",
+                    "as": "text_annotation"
+                }
+            ],
+            "mark": {
+                "type": "text", 
+                "radius": 0,
+                "dx": 4,
+                "dy": -20
+            },
+            "encoding": {
+                "text": {"field": "text_annotation"},
+                "color": {"value": "#000000"}
+            }
+        }       
+    ]
+}

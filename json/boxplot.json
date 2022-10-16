@@ -41,17 +41,17 @@
     },
     "params": [
         {
-          "name": "Year_selection",
-          "bind": {
-            "input": "select",
-            "options": [
-              null,
-              2019, 
-              2020
-            ],
-            "labels": ["Show All", "2019"],
-            "name": "Year Selection:"
-          }
+            "name": "Year_selection",
+            "value": 2019,
+            "bind": {
+              "input": "select",
+              "options": [
+                2019, 
+                2020
+              ],
+              "labels": ["2019"],
+              "name": "Year Selection: "
+            }
         }
     ],
     "layer":[
@@ -71,7 +71,7 @@
                 "y": {
                         "field": "continent",
                         "type": "nominal",
-                        "title": "Continent"
+                        "title": null
                 },
                 "color": {
                     "field": "continent",
